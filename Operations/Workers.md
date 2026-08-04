@@ -5,7 +5,7 @@ Roster and roles of the labourer/staff layer — everyone under father (technica
 | Name | Role | Notes |
 |---|---|---|
 | Sandeep | Worker | The more talkative one — good info source, but the loudest narrator isn't always the most accurate |
-| Rasik | Office boy | Generates e-way bills, also acts as an informal supervisor-like figure managing other workers and collecting their sheets — described as slightly more educated than the rest. Spends most desk time scrolling reels or on the phone; actual productive work is limited |
+| Rasik | Office boy | Generates e-way bills, also acts as an informal supervisor-like figure managing other workers and collecting their sheets — described as slightly more educated than the rest. Spends most desk time scrolling reels or on the phone; actual productive work is limited. **Also the person to send on general errands** — getting the scooter repaired, going to the bank to submit cheques, buying day-to-day items like office tape. Since his desk time is largely idle anyway, errands are the productive use of him |
 | Hiralal | Worker | Named 2026-07-13 — slimmer, taller; reportedly changed a furnace cycle on his own without authorization, described as having difficulty understanding instructions/process (see [[Day2]]) |
 | Prahlad | Worker | Named 2026-07-13 — heavier build; previously caught drinking on the job (see [[Day2]]) |
 | Suraj | Worker | Named 2026-07-13 — the second person caught drinking alongside Prahlad (see [[Day2]]) |
@@ -17,6 +17,12 @@ The 4 workers are not stationed to a single site — they move between Bhaktinag
 - Alongside that, learn each worker's nature and the way they communicate, individually. With only a handful of workers this is possible, and it is the substitute for any formal system.
 - Why it falls to you personally: there is **no HR department**. In a small factory one person is Production, Quality and HR at once — there is nobody to escalate a worker problem to, and no process that handles it if you don't.
 - Structural note: this is the same absence that shows up elsewhere — a large customer like SuperEngiTech runs separate Quality, Development and HR departments, each with its own head (see [[Business]]).
+
+## Post-incident worker interrogation
+- After a quality incident, the worker who ran that material is questioned directly: what he did, what he changed, whether he made any mistake. The purpose is to stop the same failure repeating, not to punish.
+- Applied to the **Pioneer material**: the operator was **Hiralal**, who is known for making mistakes generally and has separately been recorded changing a furnace cycle on his own without authorization — so he was questioned to establish whether operator error played any part. **It did not turn up a mistake, and the defect is not attributed to him.** The cause of the decarb and the grain structure problem on furnace 12 remains unknown (see [[Furnace-Engineering]], Decarb — atmosphere control & troubleshooting).
+- Why the interrogation is still the right first step: it is the cheapest variable to eliminate. Ruling the operator out is what makes the remaining equipment/atmosphere theories worth the effort of chasing.
+- The structural gap it exposes: workers set cycles from the handybook (below) with no second check before a run starts. That means "was it operator error" can only be answered by asking afterwards, rather than by a record — which is why a defect like this takes a conversation to rule out instead of a glance at a sheet.
 
 ## Payroll
 - All in-factory payments — worker payroll, Upaad advances, and paying the LPG vendor — are handled by **father**. Uncle's side of the money is GST and client credit/outstanding via Miracle Software (see [[Business]], [[Pricing]]).

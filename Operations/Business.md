@@ -22,6 +22,10 @@ Labourer/worker roster, roles, and worker-specific safety concerns are in [[Work
 | KHODAL | Near Padavla (after Vavdi). A person doing "cycle fera" (rounds) — a rickshaw material mover — handles material movement for this client. |
 | SuperEngiTech | Large multi-unit foundry + machining group, **4 big units in Rajkot**, at Padavla (close to Sapar, opposite side from Ribda). Casting and machine parts. Multi-family group, so several directors. Holds a contract with a **German industry** making the main hydraulic core of earth movers (JCB-type) — see [[Manufacturing-Processes]]. Contact: the head of their Development Department (Marathi), who reaches out to us for heat treatment and who introduced us to one of the main directors. **Currently only sends us small samples**; the full deal is pending (see The SuperEngiTech opportunity below). Their business is expanding — one director has gone to Chicago for a new venture there. |
 | Milan | |
+| Macwell | |
+| Apple | |
+| Kaant | |
+| Motion | |
 | PreVal | Runs on credit terms rather than per-job payment (see [[Pricing]]). Sends **machine components in special-grade stainless**, already solution-treated on their side, for us to stress relieve — the job the HRC readings were taken on (see [[Metallurgy]], [[Lab-Testing]]). |
 | Pelican EngiTech | Shared a detailed benchmark lab report (Rajkot Metlab) of their material after treatment by their *other* heat treaters — 0-micron decarb — to show the precision level they want from us (see [[Lab-Testing]], Labs & full-panel reports, and [[Day7]]). |
 
@@ -45,23 +49,44 @@ Labourer/worker roster, roles, and worker-specific safety concerns are in [[Work
 - Reading of him: he is **not technical himself**, so he asserts whatever he concludes; since the one decarb mistake he has been attributing every subsequent problem to us.
 - **Counterweight on the record:** during the decarb episode, the structural report showed he had sent **EN-8 instead of EN-31** by mistake — his error, which we identified and pointed out.
 - Open decision at leadership level: father and uncle have been discussing **whether to visit his office in person** over this (see [[Day10]]; he last came here in person over the decarb-affected coil, [[Day5]]).
+- **He has now brought in physical samples of the cracked bars** — so this is no longer a verbal claim, it's evidence in hand and testable.
+- **Two separate defects are in play on his material, and they must not be argued as one:**
+  - **A grain microstructure defect, which is ours.** The structure report on his material showed an **unintended grain structure**, off **furnace 12** — the same furnace behind the earlier decarb on this relationship. The cause is not yet known; the operator was questioned and ruled out (see [[Metallurgy]], Grain structure defect on the Pioneer material, and [[Workers]], Post-incident worker interrogation).
+  - **The cracking, which is not.** Some bars cracked and others did not. We do not quench, and bars crack on their own when **left untempered overnight after hardening** — a scheduling failure at whichever shop hardened them (see [[Metallurgy]], Delay between hardening and tempering).
+- The practical consequence for the meeting: conceding the structure defect is unavoidable and should be done plainly, while the cracking is defensible on mechanism. Arguing both as one position loses the defensible half along with the indefensible one.
 - Commercially this is the pattern the Decarb — business impact section below describes: one defect at the customer's end converts into a standing trust deficit that later, unrelated failures get charged against.
 
 ## Our own companies / plots
 The factory operates under multiple registered company names across its two sites :
 - **Vavdi**: "Alloy Heat Treatment" (active — see [[Furnace-Engineering]] for its furnaces) and "Bright Corporation" (a separate plot that was set up to manufacture Bright Bars — cold-drawn/polished steel bars, a different product line from heat treatment job-work. The product didn't sell, so that plot now sits unused; renting it out for passive income is being considered).
 - **Bhaktinagar**: "Micro Heat Treaters and Engineers" and "Micro Processors."
+### Ideas (not yet in practice)
+- **Renting out the workers' cooking area at Bhaktinagar** — the space at the opposite end of the plot, where the disbanded/decommissioned furnace sits (see [[Furnace-Engineering]], Inventory). Under discussion between father, uncle and **Shailesh Bhai** (the auditor — see Leadership above), which is the right instinct: it's a tax and compliance question as much as a property one.
+- What has to be checked before committing: **GIDC rules** on what may be sublet on an industrial plot, **property tax** implications, and everything else that lands on the cost side — the number that matters is **net** profit after all of it, not the headline rent.
+- The decision is explicitly framed as **renting vs selling**, not rent-or-nothing.
+- If renting: prefer a tenant that is a **registered LLC and trustworthy**, with the documentation done properly. Why it matters on an industrial plot — an informal tenant with no paperwork is the version of this that goes wrong, and getting a bad tenant out of a GIDC premises is far harder than never letting them in.
+- Note the second idle asset already on record: the **Bright Corporation** plot at Vavdi, unused, with renting likewise "being considered" (above). These are the same decision twice — worth deciding together rather than separately.
+
 - Both plots have a small office inside them where father and uncle sit. Furnace positions get described relative to it — at Bhaktinagar, furnace 12 sits close to the office, furnace 11 far from it (see [[Furnace-Engineering]]).
 
 ## Acquaintances in the metal industry (no business with us)
-Personal contacts of father and uncle who run metal-industry businesses. **We do no business with any of them** — they are contacts, not clients, suppliers or competitors. Useful as an industry picture and as informal channels.
+Personal contacts of father and uncle who run metal-industry businesses. **We do no business with any of them** — they are contacts, not clients, suppliers or competitors. **Neither is in the heat treatment / metallurgy business, and neither has any view of that market or its players** — so they are not a source for competitor intelligence or market reads. They are an industry picture only.
 
 - **Sanjay Seth** — a friend of father and uncle from when they were around 25, so a very long-standing one. Runs a factory near our **Bhaktinagar** unit, stocked mostly with **grinding machines**. Their product is **gauges** — go/no-go type checking tools sized so a correct part passes and an incorrect one doesn't. The point of them: an operator who **cannot read or write** can still do dimensional inspection, because the check is purely "does the piece go in and out," no number to read off an instrument. That's why it's a real business despite sounding trivial — it makes inspection possible at scale on a shop floor with a low-literacy workforce, which is exactly what **big mass-production industries** need. Niche, but with a genuine mass market underneath it.
-- **Darshak Ghetiya** — lives in our society. Owns a **ball bearing assembling factory in Sapar**. Pure assembly: he takes in **balls, cages, inner rings and outer rings** as raw material — all bought in, none made — assembles them into finished bearings and supplies onward. Worth noting alongside our own material: EN31/52100 is bearing steel ([[Metallurgy]]), so the rings in that chain are the downstream end of exactly the kind of material we heat treat.
+- **Darshak Ghetiya** — lives in our society. Owns a **ball bearing assembling factory in Sapar**. Pure assembly: he takes in **balls, cages, inner rings and outer rings** as raw material — all bought in, none made — assembles them into finished bearings and supplies onward. Assembly only — no metallurgy, no heat treatment, and no involvement in that market.
 
 ## Competitors
 - Shree Balaji Heat Treaters — a genuine outside competitor doing heat treatment in the city. Their samples are a useful benchmark when troubleshooting a quality issue (see [[Day3]]).
-- Accurate — a competitor.
+- **Accurate** — a competitor, and currently the most consequential one. They moved from a **gas furnace to an electric furnace**, and per Siddharth Bhai of Pioneer the market is now preferring them (see The market position has shifted below).
+- **Ravi Metal Treatment** — a competitor.
+
+## The market position has shifted
+Delivered bluntly by **Siddharth Bhai** while raising his cracked-bar complaint: *"Micro is finished, everyone in the market is preferring Accurate"* and *"your golden period is over."* He was angry, and he is not technical — but stripped of the anger the underlying claim holds up.
+
+- **Where the old advantage came from (10–15 years ago):** a genuine gap in the market, filled by **innovation, cheap rates and good quality at once**. The cost edge specifically came from the **no-pot innovation** — running without a pot where the industry standard was a two-pot/bell-pot setup, so no extra thermal mass to heat (see [[Furnace-Engineering]], bell pot, and [[Process]], the single-pot cost edge).
+- **Why it eroded:** nothing was taken away — the rest of the market improved. Competitors caught up and in places passed us. **Accurate's move from gas to electric furnace** is the concrete instance: a capability upgrade on their side, not a failure on ours.
+- **The strategic reading:** the original edge was a one-time innovation that was never followed by a second one. An advantage built on being first is a depreciating asset — it lasts exactly as long as it takes others to copy it. Read this alongside Decarb — business impact below: the quality problem and the lost technical lead are the same story, since the innovation that once differentiated us is now the ordinary baseline while our decarb consistency is not.
+
 
 ## Decarb — business impact
 - Why this is the single biggest quality-trust risk in this business specifically: it's job work — a decarb defect surfaces at the customer's end, on parts the customer already paid for and is relying on, not as an internal scrap cost the factory quietly absorbs. That makes it a trust problem first and a technical problem second.

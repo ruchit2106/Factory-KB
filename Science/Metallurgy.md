@@ -44,6 +44,19 @@ The factory used to do quenching; it no longer does (see EN31 above). The media,
 
 Why water extracts heat faster than oil at all: water has both a higher **specific heat capacity** (energy absorbed per degree of temperature rise) and a higher **thermal conductivity** (how fast it carries that heat away).
 
+## Grain structure defect on the Pioneer material
+- The structure report on Pioneer's material showed the **grain microstructure was not what was intended** — a defect in its own right, separate from the decarb found earlier on the same client's material and separate from the cracking he is complaining about.
+- **The cause is not known.** It came off **furnace 12 at Bhaktinagar** — the same furnace and the same site behind the unexplained decarb inconsistency (see [[Furnace-Engineering]], Decarb — atmosphere control & troubleshooting). The operator on that run was questioned and no mistake was found (see [[Workers]], Post-incident worker interrogation), so operator setting is not the explanation.
+- What makes furnace 12 the common thread worth chasing: grain structure is a direct product of the cycle — austenitizing temperature, soak time and cooling rate together decide what structure comes out. Decarb is driven by atmosphere. That one furnace is producing **both** kinds of defect points at something wrong with the furnace itself rather than at any single parameter.
+- Why grain structure is worth taking as seriously as decarb: decarb is a surface skin, whereas the grain structure is the **bulk property of the whole part** — it sets strength, toughness and machinability throughout the section, not just at the surface. Coarsened grains from overheating in particular are only fixed by re-treating (re-normalising), not by grinding anything off.
+- How it was caught: the structure test with a Nital etch (see [[Lab-Testing]], Structure test) — the same test that separately exposed EN-8 sent in place of EN-31 on this client's material.
+
+## Delay between hardening and tempering — the cracking mechanism
+- Practical rule: after quenching (hardening), the part **must be tempered within a fixed stipulated time**. Left overnight untempered, bars **start cracking on their own**, with no further load applied.
+- Why: as-quenched martensite is glass-brittle and carries enormous locked-in internal stress from the transformation. Nothing relieves that stress until tempering does. Given hours, the residual stress finds the weakest point and propagates a crack by itself — the part fails sitting on the floor.
+- This is the critical timing constraint on tempering-after-hardening, and it is why the two operations are treated as one job rather than two independent steps.
+- **Relevance here even though this factory does not quench** (see EN31 above): when a customer's bars come back cracked after being hardened elsewhere, delayed tempering at that other shop is a concrete, known mechanism for it — see [[Business]], The Pioneer dispute.
+
 ## Pearlite
 - Slow-cooled structure: alternating microscopic layers of soft ferrite and hard cementite (mother-of-pearl look under a microscope, hence the name). Soft-ish, tough, machinable.
 - Why it matters: it's what annealed incoming EN31 is — why a customer can machine it before sending it for treatment. (General shop knowledge: in quenching shops, pearlite instead of martensite = parts cooled too slowly. Not our process — we don't quench.)

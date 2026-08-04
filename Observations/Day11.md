@@ -1,0 +1,9 @@
+# Day 11 — 04-08-2026
+
+- **Siddharth Bhai came in with physical samples of the cracked bars** and delivered a hard market verdict: "Micro is finished, everyone prefers Accurate," "your golden period is over." His anger aside, the substance holds — Accurate has moved from a gas furnace to an **electric furnace**, and our old edge (the no-pot innovation, cheap rates, a quality gap in the market 10–15 years ago) has been caught up with. Promoted to [[Business]], The market position has shifted.
+- Learnt the mechanism that most likely explains those cracked bars: **after hardening, tempering must happen within a stipulated time** — left overnight untempered, bars crack on their own. Promoted to [[Metallurgy]].
+- The Pioneer decarb job was run on **furnace 12 (Bhaktinagar)**; Vavdi shows no such problem — another point on the site split, logged in [[Furnace-Engineering]].
+- **The structure report on Pioneer's material showed an unintended grain microstructure** — a defect distinct from both the earlier decarb and the cracking. Some bars cracked, others didn't. It came off **furnace 12**, the same furnace behind the unexplained decarb. **Hiralal** ran it and was questioned — he's known for making mistakes generally — but nothing turned up and the defect isn't attributed to him. What is wrong with furnace 12 is still unknown. Promoted to [[Metallurgy]], [[Workers]] and [[Business]].
+- New competitor recorded: **Ravi Metal Treatment**. New clients: **Macwell, Apple, Kaant, Motion** — names only so far.
+- **Rasik** also handles general errands — scooter repair, bank cheque submissions, buying office supplies. Added to [[Workers]].
+- Renting out the **Bhaktinagar workers' cooking area** (the end with the disbanded furnace) discussed by father, uncle and Shailesh Bhai — GIDC rules, property tax, net profit, rent vs sell, and preferring a documented LLC tenant. Logged as an idea in [[Business]].
