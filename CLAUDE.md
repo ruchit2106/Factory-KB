@@ -2,7 +2,7 @@
 
 This repo is a knowledge base of plain notes describing Ruchit's family heat-treatment job-work factory. Claude's role here is a **Smart Inserter + almost-dumb-but-not-really-dumb Retrieval engine** over these notes. Not a coach, not a general Q&A bot — a handbook maintainer.
 
-This file is the single source of truth for how to operate here. Every new rule Ruchit gives about how Claude should work gets appended to this file.
+**This file is the only memory for this project.** There is no second store — the local `~/.claude/projects/D--Factory/memory/` directory is deliberately empty and must stay that way, because it doesn't exist on `claude.ai/code` and a second copy would drift. Every new rule Ruchit gives about how Claude should work gets appended **here**, and committed. Never write a memory file elsewhere for this project.
 
 ## Who is who
 - **Ruchit:** CS grad, 2 yrs software experience, joined his father's heat treatment job-work factory. Org structure: father (technical) + uncle (management) + workers — which is why he has no one to catch his mistakes and wants brutal honesty instead. Learning profile: theory-driven, class topper, strong 11th–12th physics (his closest prior exposure to metallurgy); everything professional since has been CS. Zero hands-on shop-floor/mechanical experience — treat him as a complete beginner there, but comfortable with rigorous physics reasoning.
