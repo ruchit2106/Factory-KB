@@ -1,0 +1,66 @@
+Day - 03-08-2026
+
+- The Oxygen Probe sitting on Furnace Number 9 is not new and moved from Furnace Number 12 to there currently we only own 1. As we know its costly
+
+- For sample parts we also do some process called Tempering
+
+- We have a client called Milan
+
+- Father and Uncle had Discussions for the issue of Siddharth for Pioneer for if to visit his office or not
+
+- Now he had the new issue of Bars Cracking, and Siddharth was hostile towards us by telling it will give us debit note and what not.
+
+- After one mistake of De Carb he is trying to blame eveyrthing on us. But that guy itself is not technical so he speaks whatever he thinks.
+Cracking is because of the hardening he did from someone other and not us.
+
+- Even during the decarb issue when we were heat treating his material because of the structural report, 
+we get to know by mistaken he send EN-8 instead of EN-31. SO we pointed out his mistake
+
+- We have a client named PreVal
+
+- Now at Bhaktinagar we have 2 sets of Oxygen and N2 Gas Flow Meters. SO both furnaces can use independent measurements now (We know it worked indepenedently before as well now its just that proper measuremets from both individual are possible)
+
+- We learnt how to measure Hardness from the Hardness Scale we are having at our factory.
+
+- HRA is almost useless for us and is mainly used for metal sheets and such, We use HRB and HRC. HRC uses Diamond tip with 150kg weight and HRB uses steel ball with 100kg weight
+The weights are kept there only.
+
+- The material we learnt to measure Hardness on Was a Machine Component of PreVal. That was made from Stainless Steel Special Grade. They have
+done Soltion Treatment requiring about 1000 deg C. We did the Stress Relieving of that part. Note that for SS (Special Grade) Stress
+Relieving causes Hardness to INCREASE
+
+- We learnt measuring HRC.  
+
+- Step 1. Clean the surface of the Machine part or Coil Sample (even with hands its okay) so that no foreign particle hinder our reading, 
+then Add the Diamond tip as the indentator and add the weight to make it 150 kg in the back of the machine.
+
+- Step 2 use appropritate holder (a flat one for a machine part), or a curved (for coil sample).
+
+- There are 3 Dial(circular) scales one outer written in black. Middle one written in Black. And inner most written in Red. The Red one is written with HB so it is used for measuring the HRB scale. We use the middle scale for HRC.
+
+- There is a small inner dial inside
+
+- Step 3 Keep the right lever towards us.
+
+- Step 4 Tighten via rotating the holder upwards such that the machine part touches the ball point and keep tightening uptill around the dial circulates around 3 times and the inner dial drops
+and reaches around 3 
+
+- Step 5 Push the Lever on right outwards and wait till the dial stops dropping and reaches a certain level (Does not matter the value just stable)
+
+- Step 6 Pull the Lever on us. You now have the reading. As mentioned earlier Use the middle dial value for reading HRC.
+
+- Repeat atleast 2 - 3 Times (with different surface) so that we get correct averaged out measurements
+
+- In our case we got the reading as 40 HRC for untreated sample and 47-48 after the process. Thus confirming the success of process
+
+- Note that while measuring each iteration gave us different results this shows the existence that no surface will have complete uniform hardness (also slight measurement error always exists) and
+also there exists something as Spot Hardening, where we intentionally strenghten specific regions
+
+- Our Accountant Shailesh Bhai (Shailesh Somaiya) (He aint CA himself rather an auditor who goes onsite) came to the office for auditing. He uses Miracle Software and audits all 
+the bills, all the income statements, all the bank statements basically everything Money related for GST Filling. He comes roughly 4-5 months regularly, and completes the work within 2-3 days
+
+- I got to know what our Acquaintances are doing in metal industry. We dont do business with them, they are just our Acquaintances. Sanjay Seth Fathers and Uncles Friend early on when they were 25 yo (A long friend). 
+He owns a factory with most of Grinding machines. It is located to our Bhaktinagar unit. They make gauges for workers that dont know 
+how to read and write. So they just check if the piece goes in and out. A niche business but this gauges work for big mass production industries.
+Another is Darshak Ghetiya. He lives in our society. He is owning a Ball Bearing Assembling Factory in Sapar. So they take on raw materials like Balls, Bearing Cage, Inner Ring, Outer Ring everything as raw material, 
+finally they assemble and supply

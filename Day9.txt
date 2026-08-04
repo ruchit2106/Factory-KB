@@ -1,0 +1,89 @@
+28th July
+Vavdi Visit
+
+Analog Pressure Guage (old) is present in all of the existing furnaces including 8.
+The digital exists only for 12 and 9
+
+Pressure recording in every working furnace be it analog or digital is relative. So it does not measure
+absoule pressure. It measures relative to atmospheric pressure around us. Absolute values arent needed as well. A 
+pure 0 vaccum is practically impossible
+
+We have 2 flow meters one in Bhaktinagar shared by both 11 and 12 another in
+Vavdi shared by both 9 and 10. So just like Vaccum Pump . One Furnace one at a time. 8 uses direct Gases from bottle
+
+Each Flow meter has flow for both individual LPG and Nitrogen
+
+The Gases pass from bottle/cylinder to the flow meter and after that, both gases 
+combine in 1 unified gas pipe to the selected Furnace.
+
+The unified gas pipe enters the furnace from the BOTTOM via inlet through the furnace via a Spring check NVR.
+Spring Check NVR is a simple Mechanical Non Return Valve. Gas should go inside one way only not out.
+
+It uses a internal spring, and a sealing sheet/seat to allow fluid flow in one direction only.
+It automatically blocks reverse flow the moment pressure drops.
+
+See the working
+
+We saw Furnace 9 Pressure Leaking issue at Vavdi. Cause we found was this NRV.
+We solved it via extracting the valve then checking the direction via blowing air via mouth. 
+The FlowMeter also has this Spring NVR. So we extract from them to see the direction. We correctly identified 
+the direction by comparing it with proven working NVR. Then fixed the bad internal sheet that 
+was causing this issue via hitting a tester inside to flatten the sheet,
+and then marked the direction of flow of this valves via drawing an arrow with white marker on top.
+And then attaching it back. Problem solved
+
+We noticed 2 important things, if you are not sure of the working and documents arent nearby good way
+is to copy from existing thing, thatll be safest and fastest resolution.
+
+Secondly try to ensure problem never repeats. Draw the arrow (Also seen as Writing the Label of Furnace number for Thermocouple Wires in Panel), so
+that the worker or even we directly remember. Create a small system (here an arrow), or a small note or any kind, for quick repeting the action
+. The reason why notetaking works. Dont rely on brains memory even if it feels like when work is critical
+
+We saw the detailed unloading+loading process
+
+We usually try to start the next batch as soon as the first finishes (whenever possible)
+so we gain temperature advantage a bit, so reducing slightly electric billing
+
+1) Pre Loading (Make the next coil ready so as long as furnace is open in atmospehere and hot we quickly load next batch and close the furnace Lid)
+
+With Crane first pick up the coil from their wires and put it on top of coil holder.
+
+2) Unloading (Done when cycle close to finishin around 500-600 deg C)
+
+1. We open the wheels(big screws closing the furnace lid) on the Furnace Lid
+2. Then open the Main Furnace Vaccum Valve (Biggest Valve in our Industry. A simple Ball Valve to hold the vaccum sitting ontop of Furnace Lid).
+In these step we see the pressure rise from -ve to 0 instantly as ball valve opens up and outer air rushes in
+3. Lift the Furnace Lid from top via Crane, and place the lid aside.(Hot Furnace now open, speed matters now if next batch to be picked as soon as this finishes, we dont want temperature to drop too down) 
+The furnace core is visible, still some parts glowing hot red with material kept there
+4. Now Pick the coil holder from inside (Hardest step as the crane hooks need to attach the hot material's holder inside, tough because its hot there) lift it outside the furnace,
+and place the holder far from our working area to let it out cool in open
+
+3) Loading (If next batch is to be immediatley started it should be pre loaded)
+
+1. We lift the coil from holder with crane, and insert the holder inside the furnace
+2. Lift the Lid and place on top of furnace
+3. Tighten the Screw wheels moderately AND NOT FULL TIGHT (Important because when vaccum sucks the inner rubber it needs space to fit in)
+4. Attach the Equipment Wiring (if any on that furnace 9 or 12) like Oxymeter and the solenoid valve wiring.
+5. Join the Vaccuum Pump on top of Furnace Valve and open the valve. The Vaccum Pump switch is present in the Panel Itself
+6. Start the Pump (Current Temperature might be around 200-300 deg C). This is kind of pre bake. The metal coil from outside atmosphere, 
+the atmosphere itself, all the impurities as gas in the furnace , water vapour from moist of coil all is removed in this pump cycle. So try to wait when the metal coil enters the hot furnace (the waiting mostly
+However will be done whilst we are tightening the screw and attaching the wiring)
+7. Tighten the screw fully know.
+8. Start raising the temperature again (In PLC) (Currently we might be around 200-300 deg C)
+9. The pump is old so it has a capacity of reaching -0.5 kgf/cm2 due to wear and tear. Earlier it used to be much more
+10. Once that Pressure is reached. Lock the valve. Let the Temperature rise
+11. Once it reaches around 500 deg C. We apply the vaccum again.
+Now the Process starts
+
+Actual Process differs material to material, which also is almost pre determined for most of common materials
+that we heat treat. But this pre process routine is majorly the same for all coils. Parts and samples might differ 
+
+One more Thing to learn - Be a taskmaster and strict to workers (Keep dominance alive), but also be playful for their genuine humane problems to 
+grow bond, so theyll work better. So a friend but also we need to maintain disciplined work. And learn to identify the workers nature and the way they
+commmunicate their characterstics. Since they are few in numbers and we dont have anything like HR Department.
+In small Factories you are the Production Department, Quality, HR, all in one
+
+
+
+
+

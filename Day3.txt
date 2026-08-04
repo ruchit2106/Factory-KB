@@ -1,0 +1,87 @@
+- We saw a fourth disbanded furnace far corner of factory which was used as burning furnace earlier
+(not in use now), it is close to extreme end of factory where workers make their dinner
+
+- Technical Knowledge should be a muscle memory and not thinking, just seeing the material 
+and details we should be able to dictate the workers the furnace cycles (as seen from father)
+
+- Accurate is a Client
+
+- They gave us samples of 13mm, 14mm and 17.5mm
+
+- Competetors (Other people doing heat Treatment in City that we know) are - Shree Balaji Heat Treaters
+
+- We brainstorm a lot on Decarb as it is a well known issue for us (its presence) is a big issue 
+since we are doing just job work 
+
+- For Power Client's Sample We got Decarb of 241 micron (Even this much is a big deal),
+probable solution is using samples of exisiting Competetors Like Balaji to see what we area doing wrong,
+probable brainstorming like do we need more LPG, is there some leakage like this?
+
+- We have Credit/Outstanding system for some set customers like PreVal, Akshar, Kepler
+
+- When too much Outstanding and credit we call them when we need money (Call if its long time due, known as ughrani),
+Key speaking skills here, how to talk because they are also big factory owners, talk correctly, pay us so we can use.
+Never show desperation talk street smartly (Sarcastic Laugh - humari payment kitni aur baat kitni aap to bade player ho, bhijwa do)
+
+- Uncle has good Customer speaking skills
+
+- For This credit system and all our money related movement is stored in Miracle Software (A local Accounting Software)
+
+- Many customers give us there own cycles we just run there (and tweak if needed), they
+share it via whatsapp
+
+- Overall you are just a bird eyes view of constantly seeing everything about management and handling
+
+- LPG gas bottle are (Commercial/Industrial and Residential). We ask the supplier to give us bottle via referring
+them as 15012(Our account number). 
+Just extra FYI - Commercial LPG have blue stripe and Residential does not(Government subzidises these rates for housholds),
+so for us its costlier, no change in the gas you can use them to cook (infact workers do that)
+
+- On front where Uncle Sits, we have small (16 channel) display of the current temperature of both (11-12) Furnaces (4+4=8 used) (Rest channels have 0)
+
+- The small furnace (single zone) sitting seperate is called 8 number
+
+- Uncle found someone on the website and called them about how to control DeCarb. 
+They both also have been to Industrial visits like Chennai, Vadodara and Bangalore before for tools/betterment of Furnace.
+They are contacts from Internet Justdial and then calling the customer. 
+
+- So new tools, betterment of furnaces can be done via websites as well (if we have anyone in Rajkot, then we simply take a visit),
+so internet is good source as well, we can find their websites and call the concerned people. Websites like IndiaMart (a B2B website)
+
+- Vavdi we have 2 plots as Alloy and Bright Corporation, the Bright Corporation part was used to develop Bright Bars,
+but it didnt work upto that mark so currently that plot is almost non usable, we were planning to rent it to someone so as we get a passive income
+
+- DeCarb is geniunely crazy for us, like so many parameters in furnace we arent
+sure of why it occurs randomly , sometimes we get 0% sometimes we get 241 micron. 41 micron is considered still tolerable above 100 is too much 
+
+- We learnt about the safety solenoid valve.
+It is attached to the Furnace Pressure Valve. So the old Pressure Analog Dial sits directly above it,
+it measures in kgf/cm2. So we get rough value on old Analog as well as precise value in digital valve.
+It shows current value as well as target value. 
+It is a trigger mechanism so when we cross this value , the valve we will be openend. We have an extra manual valve before it for safety
+
+
+- The log papers is quite important. Make workers write cleary so as we can debug fast how much 
+LPG, Nitrogen consumed and we can find the consumption as well as the DeCarb or any of the other softness isssue,
+So the temperature cycles are tracked via the thermostat (and workers log sheets) which is showed to us in the device in front of uncle 
+as well as software called ESCAN (we made a SQLITE Python script to edit the DB) stores it,
+and the Gas Influx are tracked manually via the workers log paper (Prone to human error). 
+
+- So BookKeeping is fast and good in that terms. Workers write in the log sheet both temperature as well as Gases data.
+Temperature Data is also recorded by ESCAN, with a simple local DB
+
+- Practically we at our factory dont want ultra precision so we tolerate around 100 microns
+
+- Manual is done humanly so (the worker regularly checks so it is prone to understandable human error, but the data passing from thermostat to
+our software also somewhere faults thats why we created that SQLITE Script, yes that was done by me)
+
+- Thermocouple is used to just measure while Thermostat is used to control the temperature (opening closing the contactors)
+
+- An Idea (we are kinda brute forcing the LPG and N2 values to reduce the Decarb issue, temperature charts 
+we have from the ESCAN but we dont have such provision for gases(since its manual).If we somehow digitize and include
+N2 and LPG gas chart along with Temperature as well we can debug properly with graph digitally)
+
+- The DeCarb is bad upto the level that some customer taunts us with "giving money to you scares me"
+
+- We have whole Industry Level Softwares for all of the controllers, gas influxes graphs,
+all variables inside monitoring using SCADA softwares. But they are too costly for us  

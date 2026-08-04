@@ -1,0 +1,103 @@
+- Pelican EngiTech is our client
+
+- We saw detailed Report of Pelican EngiTech. It had Optical Emission Spectrometer...or spectral report.....it is 
+done by Rajkot MedtLab(A Metallurgical Testing Laboratory)
+
+- The report was of a material AFTER Heat Treated from their Heat Treaters (not us), to show us What Good
+quality Heat Treatment Looks like, and we want this level of precision
+
+- It was a detailed report with many different tests(all done by this same Lab) like
+1)Spectral, Optical Emission Spectrometer Test
+2)Rockwell Hardness Test (Measured in HRC)
+3)Tensile Test (This report has Stress Strain Curve)
+4)Torsional Test (Torque (N.m) is applied)
+5)Microstructure Examination(To see the Grains) (Tests uses something called as Etchant as Nital)
+6)Decarb Depth (Measured in microns)
+7)Coating Thickness
+8)Salt Spray Test
+
+- Many Labs do only few reports, some only does spectral, some only STRUCTURE, some like these does everything
+
+- The report had 0 micron decarb showing superiority of their Heat Treaters. Within 100 micron
+decarb range is tolerable but still 0 is 0. The more less the better. Range of 100 micron is kinda okayish for 
+customers like a set practise of market(and the customers around us) 
+(since its less cost and they dont need ultra high precision), 
+but if they are getting less microns for slightly more cost,
+or the client requires precision, then they need as little decarb as possible possibly less than 100
+So the choice lies with customer (wether we know their work and their cost spending limit and their precision requirements), 
+and our competetors pricing vs decarb given
+
+- WE learnt more concept of Metallurgy, Quenching (We used to do it earlier now not)
+
+1) Brine Salt Quench - Water mixed with brine salt (NaCl). Fastest and MOST AGGRESSIVE QUENCH.
+Faster than Plain Water since Brine removes the LiedenFrost Effect (Protection by trapped Vapor Layer).
+Maximum Hardness that can be achived. But issue is it results in too much internal stress and cracking. So use with low carbon steel
+
+2) Water Quench. Second most Fastest Quench. Slower than Brine due to LidenFrost Effect which traps Water Vapour, limiting the contact of Steel and water,
+High Hardness. Also results in internal stress and Cracking
+
+3) Oil Quench. Slowest Quench. Oil has higher boiling point than water. Reduces thermal shock. 
+Lower Hardness compared to water with less chances of internall stress and Cracking
+
+- What makes Water a better Quencher than Oil?
+- 1) Water has higher Specific Heat Capacity than oil (Energy required to raise temperature by 1 degree)
+- 2) Water has higher Thermal Conductivity than oil (Ability to dissipate heat faster)
+
+- We took the Calibrator (Tool that can measure as well as generate small milivolts of current) 
+(Kept on top of Small Workshop Table, where electric tape and all that is kept).
+
+- It needs 9V Battery that also is kept in that place. Rasik Knows where common things are placed in
+the office.
+
+- After taking the Calibrator we went to Vavdi Visit
+
+- Vavdi Visit
+
+- The main work was to rework the Thermocouple panel wiring. 
+
+- Vavdi has Furnace 9 and Furnace 10. Furnace 9 is the one closer to Vavdis Office and Furnace 10 is the one Far.
+
+- Context
+
+- In all big Furnaces (4), we have 4 ThermoCouples. Starting from Top to the very bottom. Thus EAch Zone gets 2 of them.
+
+- Panels have division. One Panel will have every detail of 1 Furnace(Its Contactors,power supply,Thermostats and 4 Thermocouple Display)
+
+- We have 2 Thermostats 1 master and 1 slave. One in each Zone.
+Exact location is furnace dependent but generally Lower Zone Upper end is Master (3 Thermocouple) and Upper Zone Lower is Slave(2 Thermocouple)
+
+- The Display that shows the temperature inside Office (Both BhaktiNagar and Vavdi), only has 2 Thermocouple Reading showing for each Furnace. One from each Zone. This is done
+to prevent overEngineering. Where as the main Panel has all 4 Thermocouple Reading Display.
+
+- The wiring is simple. Thermocouple has 2 wires White(+ve terminal), Blue(-ve Terminals).
+So each Thermocouple will have set of 2 wires. The pair is always handled together for any connection
+The wire comes from furnaces to the main panel. Inside Main Panel the wires have label attached to them as - FC9-1,FC9-2,FC9-3,FC9-4, OR since one panel has only 1 Furnace wiring
+simply - 1,2,3,4.
+
+- Wire coming from Thermocouple-is connected to another wire that goes directly to Panels Display.
+If that Thermocouple is to be given to the office. We have second set of wires that goes to office which is in PARALLEL Connection to the wire coming from furnace 
+So in simple a simple 2 Way junction is for normal ThermoCouples, 3 way join is for thermocouple whose data is to be sent inside office
+
+
+- Office receives 4 wires (2 for each). There we have different label as Furnace - Channel. So FC10-1, FC10-10, FC9-2, FC9-9. Like this
+These wires are simply attached to the Office Display as simple screw pin. That display has 16 such channels
+
+- Which Thermocouple to pass onto inside the office is decision made by us .
+There is a convention (although not strictly followed). Pass Thermocouple which is NOT close to Thermostat. So if 3 is master and 2 is slave, we pass 1 and 4 inside office
+
+- How we did 
+
+- Entire process is done when furnace is not operating so all thermocouple measure room temperature and main power SUPPLY IS OFF, then nothing in panel can generate electricity so its safe for us to operate
+
+- We use Calibrator (a device that measures as well as generates). We set it on Measuring mode
+
+- We start with one furnace. Top to bottom (1 to 4). For each Thermocouple we connect the furnace wiring. We check the label is it correctly pointing to the thermocouple.
+We check in Calibrator, if it shows 40-50 mV at room temperature, that means polarity is reversed (yes thermocouple wont read -ve values rather shows wierd voltage). If it shows
+1 (OR CIRICUIT OPEN) that means wires are not connected to furnace's thermocouple properly. If it shows 30-35 mV it means its showing room temperature which is correct
+
+- Once the wires from furnace are clear we connect it with the PIN showing display to PANEL, and the third wire if that wire is to be sent in office.
+Inside the office we check with Calibrator and then we connect to the pins inside display
+
+- Complete wiring is done for both furnaces
+
+- For furnace checking we need a worker with us (here sandeep), who can go to bottom of furnace and different places inside the furnace, then we on other hand check in the panel

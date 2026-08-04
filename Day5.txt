@@ -1,0 +1,90 @@
+- We went to Vavdi
+
+- Sandeep and Prahlad were there
+
+- There also for both furnaces we have one common vaccum pump
+
+- But here the pump motor is kept on top floor upwards of panel
+
+- This vaccuum pump is making too much noise when working rather than the Bhaktinagar Vacuum Pump. Possibly because of rubber valve making more noise
+
+- Surprisingly this both furnaces have very less issue with decarb than Bhaktinagar ones, even they all have same design
+
+- We saw the Furnace Loading Process (The lid is open)
+
+- 1) The coil (Material) is loaded via crane inside the furnace
+
+- 2) The Furnace lid is hooked with 3 sides on top of lid and then is lifted thus making a cone kind of diagram,
+3 hooks are almost equidistant so it stabilises the lid in air. Lid is placed on top of furnace
+
+- 3) The lid is then closed, tighten the big screws all over the lid. Joining process complete
+
+- 4) Apply the vaccum pipe then turn on the suction valve. Then fixate the water inlet and water outlet 2 pipes on the lid which are the earlier discussed
+water jacket
+
+- 5) Now start the vaccum. Done
+
+- Father showed me lab reports of how microstructure looks. We also saw how DeCarb looks on top of 
+steel. We saw how good annealing spheroid structure looks. White pure Fe (Ferrite) with black Fe3C circles
+
+- There was one client(new not regular), our material made the material too hard for it...So they gave
+material to us for again heat treatment
+
+- We talked with a Heat Treatment Consultant. That guy has practical experience with various furnaces so 
+he gave us practical advice on which cycle to use for decarb issue and he advised us to to UTS test
+
+- We learnt about Hardness Test
+1) Rockwell Test.  HRA(Hardness Rockwell A), HRB and HRC. (A,B,C uses differnet ball tip). It Uses Indentation Depth.
+2) Brinell Test. HBW(Hardness Brinell W(Wolfram) uses Tungsten Carbide), HBS(Hardness Brinell S(Stell ball)).
+It uses Indentation Width. Width covers much area so averages out the values.
+
+- We learnt also about UTS Test
+- Ultimate Tensile Strength
+- It is the ultimate breakpoint of the material bar after which the bar breaks
+- (Seen at the end of Stress Strain Curve for a material)
+- It is done with a Test Bar. A simple other Bar who is processed from starting way starting 
+from Mill upto heat treatment. After Heat Treatment that bar is used for UTS and bar gets destroyed
+
+- We learnt about Spectral and Strucutre Test (both are different)
+
+- Spectral Test (Spectral means components of wavelength the radiation is made up of)
+- Used to find the Material Composition. Mostly Ratio of Iron, Carbon, Chromium and so on
+- Earlier Done with chemical Processess
+- Now modern way is spectral test with OES (Optical Emission Spectroscopy)
+- Works by vaporizing a tiny amount of a metal sample using a 
+high-energy spark or arc. The vaporized atoms emit a unique light spectrum. 
+A spectrometer analyzes the wavelengths and intensity of this light to 
+instantly determine the exact chemical composition of the alloy.
+- This is high precision way
+
+- Structure test is used to determine the grain structure of the steel, to
+see the grain structure so we can see the perlite rings
+
+- All the Payroll inside the factory (Like Payroll to Workers, Giving them Upaad Advance, Paying LPG Vendor) is done by father, but the outside cash with clients handling
+via Miracle Software is done more by Uncle
+
+- 11 no. Furnace is the far one, 12 no. Furnace is close to us (Closer to our office) (The oxygen probe we attached)
+
+- The high Positive CP results in carbon on top of coil, like literally we can see on top of finger. 
+But it does not Carburize since we dont reach that temperature. (Carburizing is a process yes but we dont reach the temperature needed to fuse Carbon inside the iron)
+
+- The Pioneer (Owner - Siddharth Bhai), came to visit us at evening for the earlier De Carb issue we had with this coil
+
+- He his (relatively rich) and business model is to buy raw iron from mills then he directly loads the material,
+in our Factory, then we heat treat and direclty send to draw, or other things. He kinda just have office and does not even own his own
+factory, just transferring and rotating materials
+
+- Pioneer Cost - 5.5
+
+- Our Costing is roughly 4.0 - 4.5 Rupees per Kg
+
+- So for 2 coils (2.5 Ton each) we get profit of aroung 5.5-4.5 = 1.5 * 5000 = 7500 Total
+
+- We charge less to Pioneer since he gives work and we have been in business from long.
+
+- For others we charge around 6 rupees as well as more on individual like 40 rupees (for individual materials)
+
+- Accurate is Our Competetor and not client
+
+- Pioneer literally scolded and told it wont give us work for our huge decarb issue, and would rather give work
+to our Competetor Accurate rather than giving us

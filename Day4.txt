@@ -1,0 +1,64 @@
+- Uncle was talking with someone, on call for decarb issue. 
+The Guy seems South Indian. Uncle Found out him via Linkedin. He was experienced with Working with Furnaces
+
+- Guy Said that you might have the issue with the wire touching with each other, so LPG cant reach some parts
+
+- Our 4 (2 Bhaktinagar and 2 Alloy Heat Treatment, Big ones) have capacity for Heat Treating 2.5 Ton Lot on each furnace
+- We do heat treating on 10 mm to 25mm wire specs
+
+- We are planning to install flow meters instead of pressure guages, so as we get precise values for gas regarding the flow,
+so that we can understand the values    
+
+- Our Factory is Mechanical Core (Furnace) as well as Instrumentations (all the meters , controllers and automation)
+
+- Father talked on Phone with someone regarding upgradation of Panel (the one we discussed earlier) (like we want to Buy New Panel),
+regarding new controller where we want 16 channels with Furnace PLC I/Os as well as new meters like 
+Gas Flow values and all that. So we can add I/O for each variables. 
+Currently inside Panel we just have PLC for Furnace only, 
+we want more parameters for precise working. The guy said i will visit your factory to see the panel and 
+then we can create custom
+
+- For the Decarb Issue we already have installed Oxygen Probe (with a display ) in our big Furnaces
+
+- From the person we bought the Oxygen Analyzer (Display Controller plus Probe), we phoned them, 
+He explained the working. It is not plain Oxygen probe, (just measuring Oxygen Percentage)
+Rather it is measuring the Oxygen as well as CP (Carbon Potential) (Indirectly).
+
+- Its display is like this, when wired but probe is in open air (room temperature) we get OPEN written.
+- When it reaches 600C the value now starts reading -20mV (It means we have oxygen same as room temperature),
+- Then when we reach complete Oxygen Vacuum we get 0mV reading. Next it reads upto 1150mV(mostly)
+- Around after 1000mV , CP (Carbon Potential) starts climbing (+ve) as now free carbon can react with Steel to deposit carbon on top,
+- In This process Surplus Carbon deposition on surface. Note that it wont fuse carbon into inside. (That process is called Carburizing
+where extra surplus carbon fuses at higher temperature)
+
+- Something important, the Analyser internally still just measures oxygen but with help of 
+chemical equilibrium we get value of CP as well
+
+- Short Science behind it -
+LPG cracks -> creates a specific mix of ->CO and CO2 gases -> the probe reads the -> O2 millivolts to find that gas mix -> the controller calculates how much free carbon that gas mix will force into your steel. 
+
+- The Oxygen Probe uses Zirconium Dioxide which works at certain temperature (600c), thats why it shows mV only after that temp else shows OPEN
+
+- All the Bills are documented and kept in File behind where Father is sitting
+
+- For Power (our client), today before loading we decided to cut a peice (sample) (via grinding) and give it to Lab before Heat 
+Treatment so that before doing any process we ensure the original material is not the culprit.
+
+- We then planned to install the probe of oxyygen on top of Furnace. We have only one probe,
+for one furnace for testing because of vast cost around 1 lakh. We did make it work
+
+- Probably the Vadodara Dealer which sold us the oxygen probe is a dealer he himself
+buys from China and sells us with services (so huge margin for himself)
+
+- Other than Kanthal, Nichrome(Less Resistance, heats up quick used in commercial day to day products like Toaster)
+
+- The insulator we use in all furnace is called Cera Wool (Silica excelent insulators) 
+
+- There are too many reactions going on inside not just C,CO,CO2,LPG, because we have Heating Element exposed 
+directly to the atmosphere around the coil so that Kanthal itself might react + the cera wool might be trapping some gases.
+Because of this many reactions ongoing we have so many parameters. We only can reach best results with brute force focusing on most important gases and parameters in controller
+
+- One way to reduce the other reaction and focus only on main reaction is to introduce bell pot inside our furnace (just how other in market are doing)
+, so that we reduce the other reactions and focus only on our required gases and variables.
+But this leads to another drawback the very thing why we used to standout in the market. The pot now needs extra heat to rise in temperature which increases the annealing cost,
+Classic Precision vs cost 
