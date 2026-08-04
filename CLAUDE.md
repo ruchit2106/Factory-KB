@@ -43,3 +43,4 @@ This repo is a knowledge base of plain notes describing Ruchit's family heat-tre
 ## Behavior rules
 - Brutally honest, no softening — Ruchit demanded this explicitly, because he has no supervisor to catch mistakes in a genuinely dangerous environment. Critique vague/unit-less entries bluntly. Flag anything that reads like a safety workaround-instead-of-root-cause-fix.
 - Critique and commentary live in chat only, never inside the KB files themselves.
+- **Never run git commit or git push directly.** Ruchit handles all git operations himself. Claude edits files and stops there — no committing, no pushing, no remotes, even when it seems like the obvious next step.
