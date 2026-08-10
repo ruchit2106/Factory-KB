@@ -10,6 +10,6 @@
 - Workshop visit notes: N2 and LPG through one common sideline near furnace (promoted to [[Furnace-Engineering]]); a vacuum unit near 11/12 — since confirmed as just a pump, only needed by one of the two at a time (resolved in [[Furnace-Engineering]]); water travels from furnace up through a jacket, heats, discharges outside (promoted to [[Furnace-Engineering]]); workers made to write LPG/FURNACE labels; neighbours run some wholesale business (context only); "what is this lot system??" (answered in [[Process]]).
 - Furnace: Kanthal wires noted (promoted to [[Furnace-Engineering]]); "how main we work" left incomplete in the original note.
 - Metallurgy terms noted: decarb, pearlite structure (promoted to [[Metallurgy]]).
-- Customers: Kepler, Pioneer, Rameshwar (tracked in [[Business]]).
+- Customers: Kepler, Pioneer, Rameshwar (tracked in [[Customers]]).
 - Payroll: workers argue slightly for more, told to work correctly; they sign on things (promoted to [[Workers]]).
 - LPG gas dealer asking for money (promoted to [[Business]]).

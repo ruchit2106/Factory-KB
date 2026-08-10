@@ -1,10 +1,10 @@
 # Day 8 — Observations (2026-07-25)
 
 ## SuperEngiTech visit — Unit 1 (corporate)
-- Went via Kothariya Road (bad, village road), returned via Gondal Road (maintained highway — the one to use). Route and company profile promoted to [[Business]], Customers + The SuperEngiTech opportunity.
+- Went via Kothariya Road (bad, village road), returned via Gondal Road (maintained highway — the one to use). Route and company profile promoted to [[Customers]], customer table + The SuperEngiTech opportunity.
 - Met the head of their Development Department, our existing heat-treatment contact — through him met one of the main directors.
 - The director showed the final part's internal detail and said he wants to give us all of their heat treatment; a new unit near Padavla was discussed to serve it. **Not final** — our treated sample has gone to Germany first, and their response decides.
-- They are a giant by our standards and considerable at Rajkot level, and they export. Why the German principal doesn't manufacture in-house — cheap Indian labour plus Europe's costly mandatory safety protocols — promoted to [[Business]], The SuperEngiTech opportunity.
+- They are a giant by our standards and considerable at Rajkot level, and they export. Why the German principal doesn't manufacture in-house — cheap Indian labour plus Europe's costly mandatory safety protocols — promoted to [[Customers]], The SuperEngiTech opportunity.
 - Key commercial finding: our decarb doesn't disqualify us on this part — it needs precision, not high strength or stress resistance.
 
 ## SuperEngiTech visit — Unit 2 (workshop)

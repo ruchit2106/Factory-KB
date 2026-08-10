@@ -4,7 +4,7 @@ How material gets tested and how to read the lab reports that come back.
 
 ## Labs & full-panel reports
 - **Rajkot Metlab** — a metallurgical testing laboratory that does the full panel of tests in one report. Many labs only do a few (some only spectral, some only structure); full-panel labs like this one do everything.
-- Example of a full-panel report — Pelican EngiTech's benchmark report (see [[Business]], Customers, and [[Day7]]), all tests by this one lab:
+- Example of a full-panel report — Pelican EngiTech's benchmark report (see [[Customers]] and [[Day7]]), all tests by this one lab:
   1. Spectral — Optical Emission Spectrometer
   2. Rockwell hardness (HRC)
   3. Tensile (with stress-strain curve)

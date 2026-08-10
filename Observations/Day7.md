@@ -1,7 +1,7 @@
 # Day 7 — Observations (2026-07-23)
 
 ## Pelican EngiTech benchmark report
-- Pelican EngiTech (client — promoted to [[Business]], Customers) showed us a detailed lab report of their material after heat treatment by their *other* heat treaters — deliberately, to show what good-quality heat treatment looks like and the precision level they want from us.
+- Pelican EngiTech (client — promoted to [[Customers]]) showed us a detailed lab report of their material after heat treatment by their *other* heat treaters — deliberately, to show what good-quality heat treatment looks like and the precision level they want from us.
 - Report by Rajkot Metlab, a full-panel metallurgical testing lab — all 8 tests by the one lab (test list promoted to [[Lab-Testing]], Labs & full-panel reports).
 - The report showed **0 micron decarb** — their heat treaters' superiority on display. Market economics of the 100-micron practice vs near-zero precision promoted to [[Business]], Decarb — business impact.
 

@@ -8,7 +8,7 @@
 
 ## Decarb investigation — continued (see [[Day4]])
 - Talked with a heat-treatment consultant with hands-on experience across many furnaces: gave practical advice on which cycle to run against the decarb issue, and advised running a UTS test (see [[Lab-Testing]]).
-- Pioneer's owner Siddharth Bhai visited in the evening about the coil affected by the earlier decarb issue (client profile promoted to [[Business]]; rates to [[Pricing]]).
+- Pioneer's owner Siddharth Bhai visited in the evening about the coil affected by the earlier decarb issue (client profile promoted to [[Customers]]; rates to [[Pricing]]).
 
 ## Lab reports session
 - Father walked through lab microstructure reports: how decarb looks at the top of the steel, and what a good spheroidized annealing structure looks like — white pure-Fe ferrite with black Fe3C circles (promoted to [[Metallurgy]], Spheroidite, and [[Lab-Testing]]).

@@ -16,7 +16,7 @@ The 4 workers are not stationed to a single site — they move between Bhaktinag
 - The working approach: be a **taskmaster and strict** — keep authority intact — while being **playful and responsive to their genuine human problems**, so a bond forms and they work better. Friend and disciplinarian at once, not one or the other.
 - Alongside that, learn each worker's nature and the way they communicate, individually. With only a handful of workers this is possible, and it is the substitute for any formal system.
 - Why it falls to you personally: there is **no HR department**. In a small factory one person is Production, Quality and HR at once — there is nobody to escalate a worker problem to, and no process that handles it if you don't.
-- Structural note: this is the same absence that shows up elsewhere — a large customer like SuperEngiTech runs separate Quality, Development and HR departments, each with its own head (see [[Business]]).
+- Structural note: this is the same absence that shows up elsewhere — a large customer like SuperEngiTech runs separate Quality, Development and HR departments, each with its own head (see [[Customers]], The SuperEngiTech opportunity).
 
 ## Post-incident worker interrogation
 - After a quality incident, the worker who ran that material is questioned directly: what he did, what he changed, whether he made any mistake. The purpose is to stop the same failure repeating, not to punish.

@@ -1,0 +1,11 @@
+# Site — Vavdi & Bhaktinagar
+
+The two plots as physical places. Registered company names, ownership and the rent-vs-sell decisions are in [[Business]]; which furnaces stand where is in [[Furnace-Engineering]], Inventory.
+
+## Layout and landmarks
+- Both plots have a **small office inside** them, where father and uncle sit. The office is the landmark everything else is described relative to — at Bhaktinagar, furnace 12 sits close to the office and furnace 11 far from it.
+- At Bhaktinagar, the **far end of the plot** holds the decommissioned 4th furnace and the area where the workers cook. Renting that end out is under discussion — see [[Business]], Our own companies / plots.
+
+## Shed & building upkeep
+- **Pigeons at Vavdi**: they nest in the **corner grooves of the shed** and on **top of the crane**, and the droppings and nesting material build up over the working area. A **net has been put up** to close off both spots.
+- ⚠️ Why this is more than housekeeping: droppings are acidic and hold moisture, so they corrode the crane structure and any bare steel they sit on; dried droppings on a beam or walkway are a slip hazard for whoever climbs up for crane maintenance; and dry nesting material sitting on top of a crane in a hot shed is loose combustible debris directly above the working area. Netting is the root fix — it removes the roosting spot rather than repeatedly cleaning up after it.

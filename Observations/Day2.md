@@ -32,4 +32,4 @@
 - Ecosystem location correction: Alloy + Bright Corporation in Vavdi; Micro Heat Treaters + Micro Processor in Bhaktinagar — confirmed as the correct pairing, Day 1's original version was swapped. See [[Business]].
 - Small furnace detail: single zone, 3-phase input, at the back of the factory, used for small samples/directly machined parts rather than steel coils — see [[Furnace-Engineering]] inventory table.
 - Payroll notebook and Upaad notebook: both kept behind uncle's seat. Upaad = worker salary advance/loan, deducted from salary. Small daily supplies (electric tape etc.) are on the workshop table opposite his seat, a separate location from the notebooks. See [[Workers]].
-- Clients: Scarlet and Power — two separate companies — see [[Business]].
+- Clients: Scarlet and Power — two separate companies — see [[Customers]].

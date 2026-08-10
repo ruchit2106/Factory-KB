@@ -55,7 +55,7 @@ Why water extracts heat faster than oil at all: water has both a higher **specif
 - Practical rule: after quenching (hardening), the part **must be tempered within a fixed stipulated time**. Left overnight untempered, bars **start cracking on their own**, with no further load applied.
 - Why: as-quenched martensite is glass-brittle and carries enormous locked-in internal stress from the transformation. Nothing relieves that stress until tempering does. Given hours, the residual stress finds the weakest point and propagates a crack by itself — the part fails sitting on the floor.
 - This is the critical timing constraint on tempering-after-hardening, and it is why the two operations are treated as one job rather than two independent steps.
-- **Relevance here even though this factory does not quench** (see EN31 above): when a customer's bars come back cracked after being hardened elsewhere, delayed tempering at that other shop is a concrete, known mechanism for it — see [[Business]], The Pioneer dispute.
+- **Relevance here even though this factory does not quench** (see EN31 above): when a customer's bars come back cracked after being hardened elsewhere, delayed tempering at that other shop is a concrete, known mechanism for it — see [[Customers]], The Pioneer dispute.
 
 ## Pearlite
 - Slow-cooled structure: alternating microscopic layers of soft ferrite and hard cementite (mother-of-pearl look under a microscope, hence the name). Soft-ish, tough, machinable.

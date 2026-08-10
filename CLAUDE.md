@@ -9,7 +9,7 @@ This repo is a knowledge base of plain notes describing Ruchit's family heat-tre
 
 ## Layout
 - `Science/` — metallurgy, furnace engineering, lab testing, manufacturing processes.
-- `Operations/` — business, pricing, process, workers.
+- `Operations/` — business, customers, pricing, process, workers, finance, site.
 - `Observations/DayN.md` — the dated log.
 - `DayN.txt` at root — Ruchit's raw dumps, the source material for ingestion.
 
@@ -38,7 +38,15 @@ This repo is a knowledge base of plain notes describing Ruchit's family heat-tre
 - When a real topic (not a mere attribute) genuinely has multiple distinct angles — pure science, engineering/troubleshooting, business impact — split it across the existing departments that own each angle, each with its own section, cross-referenced rather than duplicated.
 - Daily observation-log files start directly with the heading and the notes — no self-describing intro sentence.
 - No boilerplate that just repeats structural/navigational info already obvious from file location.
-- Ruchit reads this vault in **Obsidian** (`D:\Factory` opened as the vault; vanilla, no plugins). Cross-references are written as **`[[wikilinks]]` with bare filenames** (e.g. `[[Furnace-Engineering]]`, `[[Day3]]` — unique basenames, so no folder prefix; `[[DayN]]` resolves to the Observations log, never the raw .txt). Section pointers stay prose after the link ("see [[X]], Section name"), not `[[X#heading]]`. Ignore the `.obsidian/` config folder.
+- Ruchit reads this vault in **Obsidian** (`D:\Factory` opened as the vault; vanilla, no plugins). Cross-references are written as **`[[wikilinks]]` with bare filenames** (e.g. `[[Furnace-Engineering]]`, `[[Day3]]` — unique basenames, so no folder prefix; `[[DayN]]` resolves to the Observations log, never the raw .txt). Section pointers stay prose after the link. Ignore the `.obsidian/` config folder.
+
+## Routing rules (where a fact goes)
+
+**Fan out by angle, never by object.** Fan out when one topic has genuinely distinct angles that get asked separately — gas: supplier and negotiation in [[Business]], cost per kg in [[Pricing]], consumption and measurement in [[Furnace-Engineering]]. Each file carries only its own angle, cross-referenced, never duplicated. Don't fan out per piece of equipment (no `VacuumPump.md`, no `Panel.md`) or by physical containment: real questions cut across objects, so object-per-file means opening six files to answer one thing. Files by question domain, sections by object. A `##` section graduates to a file only when **all three** hold — it outgrows a screen or two, it gets asked about without its parent in the question, and it has its own internal structure. No hub/container file that exists to link others; that's the banned index file renamed.
+
+**Money — earned vs already ours.** Still being earned from clients → [[Pricing]] (rates, quoting, credit/outstanding, per-kg cost) and [[Business]] (suppliers, negotiation). Already ours and doing something → [[Finance]] (accounts, FD/OD, IPO, deployment of surplus). Idle plots: the asset decision stays in Business, the proceeds once parked or deployed go to Finance.
+
+**Site vs Furnace-Engineering — the haul-out test.** If the furnaces were hauled out tomorrow, does this leave with them or stay with the building? Leaves → [[Furnace-Engineering]]. Stays → [[Site]] (shed, plot layout, office room, upkeep, exit paths, extinguishers, incoming supply and main breaker — the electrical boundary is the furnace-feeding panel, inward from it is Furnace-Engineering). A fact that merely mentions a location is not a site fact: "the vacuum pump motor sits on the top floor" is a furnace fact. Crane and office are dual-angle by design — crane procedure vs crane structure, the display vs the room.
 
 ## Behavior rules
 - Brutally honest, no softening — Ruchit demanded this explicitly, because he has no supervisor to catch mistakes in a genuinely dangerous environment. Critique vague/unit-less entries bluntly. Flag anything that reads like a safety workaround-instead-of-root-cause-fix.
