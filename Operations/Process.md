@@ -10,6 +10,7 @@
 - **Direct machine parts and ready-made finished parts come in sparsely** by comparison — a real but minor stream.
 - **Which furnace absorbs a job is decided by quantity and weight, not by part type.** A small quantity/low weight of parts goes into furnace 8 (the small single-zone furnace); a large one goes into a big furnace. So "machine parts" and "furnace 8" correlate only because those jobs usually arrive small — a large enough consignment of machine parts is run on a big furnace like any other lot.
 - Upstream, that means most incoming material arrives via rolling and drawing, not casting or forging — see [[Manufacturing-Processes]].
+- **Small individual parts are unloaded in the outer open area**, and go from there into furnace 8. Their arrivals are recorded **twice**: in a handwritten notebook, and in a **separate Excel sheet** distinct from the Master Excel sheet below.
 
 ## Tempering on sample parts
 - Besides the main coil work, **tempering** is also run here on sample parts — the controlled reheat after hardening (see [[Metallurgy]], Vocabulary). Furnace 8 is the unit sized for this kind of small-quantity sample and machined-part work (see [[Furnace-Engineering]], Inventory).

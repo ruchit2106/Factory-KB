@@ -1,0 +1,37 @@
+08-08-26
+
+- Bhaktinagar Vaccuum Pump Maintenance(The shared one among 11 and 12, not the individual small for Furnace 8)
+
+- We saw the inner working of the Vaccum Pump. It is entirely soaked in oil
+
+- We saw big filter in the entrance of the Pump, the filter containts hole so air passes on and stops big debris, but the small dust particles and smaller 
+debris still pass on to the pump. The moisture from the furnace also passes through so we have a water as debris as well
+
+- The working of the pump is simple it swaps oil and in return. We saw the pump open
+
+- It has one big entrance pipe that sucks in air. Second we have inside the pump that throws oil out
+
+- We have to clean the pump by extracting all the oil along with dirt sitting deep down, to clean the inner, 
+drain all the oil from a hole sitting down as well as the dirt sedminented down by hand, or by clean sheet like thing,
+Also run the vaccum pump when its opened (do it jerky start stop not continuous way) 
+so as it spits out oil/debris inside thus cleaning all the debris possible. 
+
+- The extracted oil is collected in vessels. Then we filter out all the oil along with water (that comes sucking the furnace as moisture)
+
+- The filtered oil is resued along with adding some extra oil (so to compensate the loss).
+
+- The Fera guy we use, also goes to deliver the finished item to our clients location (in some cases). So he knows the amount of 
+Coil Bundles that site holds. That guy does fera for differnet customers as well, so he moves many sites. We can simply ask him
+for example if he visits Pioneer for delivery, we can ask how much Coils are kept there.
+
+- From that we can deduce that if market is strong overall or not (Since we are job workers/ middle man). And we can 
+then deduce if Pioneer is holding this much quantity than why aint he giving us or not. 
+
+- This is street smartness. We can also deduce the fact that even if this guy has so much problem with us and is carrying so much
+quantity why is he giving us, thats because of our cheap rates when given at large quantities
+
+- The small individual parts work unloads on the outer open area from where it goes onto inside the Furnace 8.
+For that individual work we keep a note of the arrivals via hardcoded notebook as well. Also that track is kept in seperate Excel Sheet
+
+- The FlowMeter sits on top of Panel(Here Panel means a simple metal holder like thing, not the Panel we use as the main controller of Furnace). 
+Temporarily in Bhaktinagar We had it on top of wooden PLank. The Panel is bought and then Powder Coated with color after which we use it.
