@@ -42,10 +42,10 @@ Personal contacts of father and uncle who run metal-industry businesses. **We do
 - The **fera guy** — the rickshaw material mover who does rounds (see [[Customers]], KHODAL) — also **delivers finished material to client sites** in some cases, so he sees how many coil bundles are standing at each one. He runs fera for **several different customers**, not only us, so he moves across many sites.
 - That makes him a standing source of market intelligence: ask him what he saw at a given client — how many coils are lying at Pioneer, say — and you get that client's actual stock position without asking the client.
 - What it is good for, given we sit in the middle of the chain as job workers: the aggregate stock across the sites he visits is a proxy for **whether the market overall is strong or weak**. Per-client, a large stock sitting at a customer who is not sending us proportionate work says that work is going somewhere else.
-- It is deliberate street smartness rather than a system — the information already moves through the factory every day, it only has to be asked for.
+- It is deliberate street smartness rather than a system — the information already moves through the factory every day, it only has to be asked for (see [[Day13]]).
 
 ## The market position has shifted
-Delivered bluntly by **Siddharth Bhai** while raising his cracked-bar complaint: *"Micro is finished, everyone in the market is preferring Accurate"* and *"your golden period is over."* He was angry, and he is not technical — but stripped of the anger the underlying claim holds up.
+Delivered bluntly by **Siddharth Bhai** while raising his cracked-bar complaint: *"Micro is finished, everyone in the market is preferring Accurate"* and *"your golden period is over."* He was angry, and he is not technical — but stripped of the anger the underlying claim holds up (see [[Day11]]).
 
 - **Where the old advantage came from (10–15 years ago):** a genuine gap in the market, filled by **innovation, cheap rates and good quality at once**. The cost edge specifically came from the **no-pot innovation** — running without a pot where the industry standard was a two-pot/bell-pot setup, so no extra thermal mass to heat (see [[Furnace-Engineering]], bell pot, and [[Process]], the single-pot cost edge).
 - **Why it eroded:** nothing was taken away — the rest of the market improved. Competitors caught up and in places passed us. **Accurate's move from gas to electric furnace** is the concrete instance: a capability upgrade on their side, not a failure on ours.

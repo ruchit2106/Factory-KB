@@ -1,0 +1,5 @@
+# Day 14 — 24-08-2026
+
+- **Underground room at Bhaktinagar** — near the office and the shed's lathe machine, by the shed opening that faces the office, reached by stairs going down. Built to hold the lathe machine underground; sits empty now. Added to [[Site]].
+- **A home loan has been applied for from ICICI against uncle's house**, not for a house — the money funds IPO applications. It works like the FD/OD arrangement: interest at **7%** on the drawn amount only, so an unallotted IPO costs nothing, and an allotted one is sold and repaid immediately. It profits only when the allotment returns more than 7%. A ~₹1.2 crore house supports roughly **₹80 lakh** of loan. Promoted to [[Finance]], Loan against property.
+- Learnt that the multiple-PAN IPO route works for **individuals, not companies** — on the stated ground that companies aren't allowed to invest in stocks. This conflicts with what the ICICI relationship manager said on [[Day12]], recorded in [[Finance]] as market practice: that people register combinations of people as companies to obtain extra PANs and apply from each.
