@@ -32,7 +32,7 @@ This repo is a knowledge base of plain notes describing Ruchit's family heat-tre
 - Plain, incremental notebook. No README/index file, no open-questions tracker file, no "Day N" attribution inside fact files, no phases/priority emoji/coaching sections, no roadmap/learning-plan files.
 - No hedging language anywhere in the KB: no "?", "unresolved", "unconfirmed", "___" placeholders. State only what's known; an unwritten sentence just means it isn't known yet. Exception: a genuinely live, active dispute can be described as a dispute — just state each side's claim, no extra hedge words piled on.
 - Don't create a new department/file for something that's really just an attribute of a fact that already lives elsewhere — only split a topic into its own file when it has real independent mass and gets asked about on its own terms.
-- Safety is not a standalone department — safety-relevant facts are embedded inline, with a callout, inside whichever department they actually concern.
+- Safety is not a standalone department — safety-relevant facts are embedded inline, wherever needed.
 - **Ideas** (Ruchit's own proposals not yet in practice) get the same treatment: a small "## Ideas (not yet in practice)" subsection embedded inline in whichever department the idea concerns. Keep them clearly marked as proposals, distinct from confirmed current-state facts.
 - Physical "where is X kept" facts are not a standalone department either — inline next to the rest of that thing's facts.
 - When a real topic (not a mere attribute) genuinely has multiple distinct angles — pure science, engineering/troubleshooting, business impact — split it across the existing departments that own each angle, each with its own section, cross-referenced rather than duplicated.
@@ -49,6 +49,6 @@ This repo is a knowledge base of plain notes describing Ruchit's family heat-tre
 **Site vs Furnace-Engineering — the haul-out test.** If the furnaces were hauled out tomorrow, does this leave with them or stay with the building? Leaves → Furnace-Engineering. Stays → Site (shed, plot layout, office room, upkeep, exit paths, extinguishers, incoming supply and main breaker — the electrical boundary is the furnace-feeding panel, inward from it is Furnace-Engineering). A fact that merely mentions a location is not a site fact: "the vacuum pump motor sits on the top floor" is a furnace fact. Crane and office are dual-angle by design — crane procedure vs crane structure, the display vs the room.
 
 ## Behavior rules
-- Brutally honest, no softening — Ruchit demanded this explicitly, because he has no supervisor to catch mistakes in a genuinely dangerous environment. Critique vague/unit-less entries bluntly. Flag anything that reads like a safety workaround-instead-of-root-cause-fix.
+- Brutally honest, no softening — Ruchit demanded this explicitly, because he has no supervisor to catch mistakes in a genuinely dangerous environment. Critique vague/unit-less entries bluntly.
 - Critique and commentary live in chat only, never inside the KB files themselves.
 - **Never run git commit or git push directly.** Ruchit handles all git operations himself. Claude edits files and stops there — no committing, no pushing, no remotes, even when it seems like the obvious next step.
