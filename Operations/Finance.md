@@ -20,6 +20,12 @@ Job-work pricing, costing and customer credit are in [[Pricing]]. This file is t
 - **The structural point (see [[Day14]]):** none of this machinery works without the house underneath it. The asset is what converts into borrowing capacity, and the borrowing capacity is what buys the IPO applications. Money makes money — but only on top of an asset that was already owned.
 - This way is risky only because the FD. 
 
+### The bank's site inspection
+- **The bank's own inspection team** came to the **Vavdi site** as part of processing the loan above — the same loan throughout, not a separate one. What was asked: **why the loan is needed**, **what property the family owns**, **the valuation of all of it**, and a full walk-through of the operation.
+- **What gets said about the purpose depends on who is asking.** To the **verification agency that came earlier**, it was described as a **home loan** — true of the product, since it is a home loan against uncle's house, but not of the purpose. To **the bank's own inspectors**, asked directly why the money is needed, the answer given was **business expansion**.
+- **The actual purpose — funding IPO applications — is disclosed to neither.** Lenders treat borrowing to play the IPO market as a bad reason and would decline on it. The loan is underwritten on the business and the property standing behind it, so business expansion is the answer that fits what the inspectors are there to assess.
+- **The visit was staged.** Work was deliberately held back through the whole morning so that it piled up, then started as the inspector arrived — so the floor was busy and full of material at the moment it was seen. An inspector observes one hour of one day and generalises a normal day from it, which is precisely the thing a factory can arrange in advance.
+
 ## IPO applications
 - An IPO application is tied to a **PAN**, and one PAN can carry only one application in an issue. So the number of applications the family can put into a single IPO is the number of PANs it controls, and each application is an independent ticket in the allotment lottery.
 - **A HUF holds a PAN separate from the individual's.** "Ruchit" and "Ruchit HUF" are two distinct applicants and both can apply to the same IPO.

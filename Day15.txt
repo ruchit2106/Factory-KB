@@ -1,0 +1,60 @@
+29-08-2026
+
+- Visit to Drawell Wires Private Ltd (Me,Uncle and Father)
+
+- It is an SKP Industries unit. SKP is a ball bearing Industry located in Surendranagar (Mulchand Road). It is much bigger
+industry much larger scale. Earlier they used to give us heat treatment work for long time, so we know them.
+After that they build inhouse Factory Drawell Wires Private Ltd which does complete heat treatment of the work
+and the wire drawing is done there. So no work comes to us.
+
+- The reason for our visit is that we wanted help with decarb, so we wanted their advice
+
+- It is situated in Lakhatar Village close to Surendranagar.
+
+- We called there Cheif Operator (these operators have practical knowledge, cause of many years 
+of hands on working experience similar to our workers but theoretically not very sound cause of limited formal education).
+
+- These big factories run 24/7 so there Chief Operator are also 2-3 in shift cycles.
+
+- The day prior We called one both operators working there. But one operator told the main Owner of the company that we are visiting.
+They agreed yesterday.
+
+- Today we directly reached their Drawell Unit. But the operator was feared and confused of who are we.
+This is because he thought we were trying to copy or something, since we are in same industry we might copy their technique
+
+- The guy reluctantly still showed the main Panel area and was insisting please call my Owner so as i can give you the information. 
+
+- There were 6 Furnaces, all 3 zone, all top bell Furnaces (Our is of pit which means furnace sits underground and the Fan, Vaccum and gas intakes from top, 
+there design was tall above floor level, with bell (SS Pot) Inserted from Top. And then the Top of the Furnace sealed, Gas intake, Vacuum and Fan are at bottom near our head level).
+So this requiers good amount of Height for Shed OR We have to install the furnace in our pit. They use a Pot/Retort (Also Called Bell if placed upside down like in this case) made of SS.
+So their heating element does not come in direct contact with coil rather comes to SS pot first 
+
+- The panel room was well maintained. All Panels were Clean , Wires properly designed. Entire Panel room was cooled with ACs.
+They used proper Thyristor for each Furnace, with Proper PID loop mechanism. The biggest difference was they used a SCADA Type software (Not SCADA exactly), to
+compltely visualize and set the temperature control in a computer kept there. (Photo in my phone remember when needed). The software was made by Basell Automation System
+Private Limited From Tamil Nadu
+
+- The software was meticulous with measuring all the Variables Of Temperaturs of each zone for all working
+furnaces, the status of both N2 and Vacuum Solenoid Valve (wether engaged or not, their status), the status of fan, its speed (Hz/RPM),
+the mode of the cycle, which part of the cycle we are in, pressure inside the furnace. Everything in Proper Live Visual Furnace Drawn UI. Too good except for the fact that i didnt see any
+gas flow variable for the flow of N2 or anything like that in the software, neither the use of LPG gas inlet in actual furnaces or in softwares. It might 
+be there, but I just got the Glimpse of the software
+
+- Uncle tried explaining our Furnace design and the decarb we are getting, while father was discussing with the Owner. The owner didnt like that 
+we straight up went into the industry site location even though he was well aware. We requested them that we are not here to copy you we just want to
+solve our problem. The Owner then told us to meet later time and this was not the right time politely on call. 
+
+- The operator told that in these situation it will be best that 
+he visits our office physically without owners knowledge and will see our actual equipments and 
+then figure out, cause explaining here via images and photos is impossible to find the root cause, and 
+also the owner was slightly hostile. So we left
+
+- We returned home
+
+- End of Visit
+
+- At Evening in Vavdi, The Loan Inspection from Bank came to visit, we delayed our work for entire morning so work bunches up
+and then started work when they came so it looks factory is working with good amount of work. A street smart move
+
+- He asked about why loan needed (we told them we needed to expand business), what property you own, what valuation of everything, complete 
+inspection. We SHOULD NOT TELL THE ACTUAL REASON THAT WE ARE DOING FOR IPO FILLING, they consider it bad and wont pass the loan. Another Street Smart Move

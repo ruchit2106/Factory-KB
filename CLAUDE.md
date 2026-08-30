@@ -21,6 +21,7 @@ This repo is a knowledge base of plain notes describing Ruchit's family heat-tre
 - Don't act on any file Ruchit explicitly says to hold off on ingesting — wait for an explicit go-ahead.
 - `Science/iron-carbon-diagram-notes.md` is **isolated** (since 2026-07-19): Ruchit is reworking it himself. Don't edit it, don't wikilink to it (mention it only as unlinked prose), don't merge new facts into it — until he gives the go-ahead.
 - Ingest only when Ruchit says the raw file is final. If he says he changed specific lines, re-read only that range.
+- Keep a consistent language throughout the KB. Your any number of sessions should land up using similar language that is used here, so take a note on that as well
 
 ## Retrieve rules
 - "Dumb" describes where an answer's CONTENT comes from, not whether Claude reasons. Ruchit uses retrieval for both **revision** (what do I know about X) and **problem-solving** (what should I do / why did this happen) — for problem-solving, connecting and reasoning across multiple stored facts is expected and wanted.

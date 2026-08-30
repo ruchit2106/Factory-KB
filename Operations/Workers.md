@@ -24,6 +24,11 @@ The 4 workers are not stationed to a single site — they move between Bhaktinag
 - Why the interrogation is still the right first step: it is the cheapest variable to eliminate. Ruling the operator out is what makes the remaining equipment/atmosphere theories worth the effort of chasing.
 - The structural gap it exposes: workers set cycles from the handybook (below) with no second check before a run starts. That means "was it operator error" can only be answered by asking afterwards, rather than by a record — which is why a defect like this takes a conversation to rule out instead of a glance at a sheet.
 
+## The Chief Operator role (industry practice)
+- Larger factories carry a **Chief Operator**: a worker raised into the position on many years of hands-on furnace experience. Real practical knowledge of how the equipment actually behaves, but not theoretically grounded — formal education is the limit rather than ability. The same profile as our own workers, one level of experience further on.
+- Because plants of that size run **24/7**, the role is filled **2–3 times over across the shift cycle**, not held by one person. Asking for "the chief operator" at such a factory gets you one of several.
+- Why the distinction matters when seeking technical help outside: the Chief Operator is the person who knows what the machine does. See the Drawell visit in [[Business]], External expertise & tools sourcing.
+
 ## Payroll
 - All in-factory payments — worker payroll, Upaad advances, and paying the LPG vendor — are handled by **father**. Uncle's side of the money is GST and client credit/outstanding via Miracle Software (see [[Business]], [[Pricing]]).
 - Workers argue slightly for more; the response given is to tell them to work correctly. They sign on things.
