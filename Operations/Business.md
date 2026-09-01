@@ -16,14 +16,14 @@ The customer roster, the SuperEngiTech opportunity and the Pioneer dispute are i
 
 ## Our own companies / plots
 The factory operates under multiple registered company names across its two sites :
-- **Vavdi**: "Alloy Heat Treatment" (active — see [[Furnace-Engineering]] for its furnaces) and "Bright Corporation" (a separate plot that was set up to manufacture Bright Bars — cold-drawn/polished steel bars, a different product line from heat treatment job-work. The product didn't sell, so that plot now sits unused; renting it out for passive income is being considered).
+- **Vavdi**: "Alloy Heat Treatment" (active — see [[Furnace-Engineering]] for its furnaces) and "Bright Corporation" (a separate plot set up to manufacture Bright Bars — cold-drawn/polished steel bars, a different product line from heat-treatment job work. The product didn't sell, so that plot now sits unused). What to do with the two idle spaces is under Ideas below.
 - **Bhaktinagar**: "Micro Heat Treaters and Engineers" and "Micro Processors."
 ### Ideas (not yet in practice)
 - **Renting out the workers' cooking area at Bhaktinagar** — the space at the opposite end of the plot, where the disbanded/decommissioned furnace sits (see [[Furnace-Engineering]], Inventory). Under discussion between father, uncle and **Shailesh Bhai** (the auditor — see Leadership above), which is the right instinct: it's a tax and compliance question as much as a property one.
 - What has to be checked before committing: **GIDC rules** on what may be sublet on an industrial plot, **property tax** implications, and everything else that lands on the cost side — the number that matters is **net** profit after all of it, not the headline rent.
 - The decision is explicitly framed as **renting vs selling**, not rent-or-nothing.
 - If renting: prefer a tenant that is a **registered LLC and trustworthy**, with the documentation done properly. Why it matters on an industrial plot — an informal tenant with no paperwork is the version of this that goes wrong, and getting a bad tenant out of a GIDC premises is far harder than never letting them in.
-- Note the second idle asset already on record: the **Bright Corporation** plot at Vavdi, unused, with renting likewise "being considered" (above). These are the same decision twice — worth deciding together rather than separately.
+- **Renting out the Bright Corporation plot at Vavdi** — the second idle space, unused since the bright-bar product failed (see Our own companies / plots above). Same decision as the cooking area and subject to the same GIDC, tax and tenant checks, so the two are worth deciding together rather than separately.
 
 The physical side of both plots — layout, offices, sheds, building upkeep, facility-wide safety — is in [[Site]].
 
@@ -80,7 +80,7 @@ Pricing strategy, cost structure, and per-kg rates are in [[Pricing]].
 - The factory generates mostly metal scrap, so iron-scrap dealers come often; electric scrap is also collected (a dealer came for it specifically).
 
 ## Gas suppliers
-- LPG dealer: workers also draw on the same common LPG supply for their own personal cooking, which is a factor in negotiation. Usage is tracked via the pressure-injection measurement described in [[Furnace-Engineering]], giving a factory-wide LPG ingestion rate to negotiate against.
+- LPG dealer: workers also draw on the same common LPG supply for their own personal cooking, which is a factor in negotiation. Usage is read off the **LPG flow meters** at both sites in litres/minute (see [[Furnace-Engineering]], Gas consumption measurement), giving a factory-wide LPG ingestion rate to negotiate against.
 - LPG bottles come in two types: Commercial/Industrial and Residential. Commercial bottles are blue with red strip ; residential bottles are complete red. The gas itself is identical — the price differs because the government subsidizes residential rates for households, so the factory's commercial bottles cost more even though workers can (and do) use the same bottles to cook. Bottles are ordered by referencing the factory's account number with the supplier (15012).
-- Nitrogen supplier: usage tracked the same way (pressure injection). Heat treatment's nature means the factory consumes more nitrogen than a typical shop, which also factors into negotiation.
+- Nitrogen supplier: usage read off the N2 flow meters the same way. Heat treatment's nature means the factory consumes more nitrogen than a typical shop, which also factors into negotiation.
 

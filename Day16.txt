@@ -1,0 +1,46 @@
+30th August 2026
+
+- We visited Vavdi
+
+- Noted that Fan also need a connectiion apart from Oxymeter, Solenoid Valve on top of Furnace Lid
+
+- Saw inside of the furnace, the hole from where the Gases come inside the Furnace. From outside we can 
+see the Gas connected to Furnace via NRV
+
+- The NRV protects the reverse flow so, when the Vaccum is applied it sucks the air from the Gas line,
+straight upto the actual Gas Source (LPG, Nitrogen Bottle), so a valve is needed there as well (Controlled by FlowMeter and the Valve of Bottle as well).
+The rubber pipes delivering the gases still dont collapse, if the vaccuum were more extreme, or the pipe is smaller, it
+completely shatters
+
+- We saw the heating element wire getting burned. This was found when we saw Ammeter in Panel 
+not raising, showing no current passing because of incomplete circuit. This breaking happens because of many reasons
+one of them being, if coil material has oil on its surface and we dont have pot/bell so the oil directly exposure to
+heating element, which causes Contamination. 
+
+- The cure is to just pinch from where the break has occured and join both of the wires, completing the
+circuit, when temperature raises it welds the wire. But a better long term solution is to actually weld it.
+
+- The pressure Guages we have in all 4 furnaces measure as
+
+1) 0 - Atmospheric
+2) -1 - (Downard/Vaccum extreme) (We dont go here)
+3) +1 - (Upward/Vaccum extreme) (We dont go here)
+
+- In the sheet workers right simply as -786 (meaning -0.786), +30 (meaning +0.30)
+
+- I also learned the benefits of Thyristor, Rather than Less power consumption (This is one of the benefit though),
+It gives long life to heating element. In contactor, extreme power comes to it in fraction of second. Why thermostat gradually gives 
+time to heating element, contactors basically shock it 
+
+- We learnt about the advantages of Top Bell Furnace, which is the heat traps on top of the bell, so when the bell
+is moved onto next furnace, we get more initial heat advantage better than bottom pit furnace.
+
+- We also learnt a 3rd category of Sideways Furnace. Where the Furnace body sits horizontally. Front Loading.
+This is generally considered best as we get benefits of both Top and Pit Furnace. The only 
+issue is loading and unloading material
+
+- We are experimenting a fact to resolve Decarb. We think that the LPG is not circulating properly
+and LPG is not getting exposed to the material. So we are thinking to keep circular pipe inside the furnace 
+covering most areas with holes init that sits at the bottom of the furnace. So now the gas instead of one hole leaks from this tiny holes thoughout the bottom. So like water irigation in farm with too many holes in single pipe.
+
+- This is just an idea we dont clearly know wether it work though

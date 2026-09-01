@@ -7,7 +7,7 @@
 
 ## Costing
 - Cost per job is built from: power consumed by the heating elements (primary driver — scales with the weight of material/artifacts being treated, since more mass needs more energy to heat) + power consumed by fans (secondary) + power consumed by pumps (tertiary) + gas costing.
-- Gas costing is measured via pressure injection (see [[Furnace-Engineering]] for how that measurement actually works) — introducing LPG raises cost but is needed to prevent decarb (see [[Metallurgy]]).
+- Gas usage is read off the LPG and N2 **flow meters** in litres/minute (see [[Furnace-Engineering]], Gas consumption measurement) — introducing LPG raises cost but is needed to prevent decarb (see [[Metallurgy]]).
 - Because cycles and lot weights repeat consistently, average cost across a full lot works out to roughly **₹4.0 - 4.5 Rupee/kg**.
 
 ## Pricing
