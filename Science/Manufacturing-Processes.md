@@ -66,6 +66,16 @@ Machines seen at SuperEngiTech Unit 2 — genuinely top-tier for Rajkot:
 - **CNC (Computer Numeric Control)** — not a machine type but a *control* method: the tool path is driven from a program instead of a human turning handwheels. Applies to lathes and mills alike. The CNC machines there are from **Jyoti** (Jyoti CNC, Rajkot — a local manufacturer of national scale).
 - **3D scanning camera** — builds a 3D digital model of the finished part in the computer, so actual geometry can be compared against the design model. This is dimensional QA, not machining.
 
+### Drilling hard metal — stepping up and cooling
+Learned doing it in our own factory, enlarging a hole in a stainless-steel gas pipe (see [[Furnace-Engineering]], Gas distribution ring).
+
+- **The finished hole comes out slightly larger than the bit.** The bit rotates and cuts a little clearance beyond its own diameter, so size the bit marginally under the target rather than exactly on it.
+- **Never go straight to the final diameter in hard metal.** Step up: a small bit first, then a larger, then the final size — three steps were used here. Why it is faster despite being more passes: at the very centre of a drill the cutting speed is effectively zero, so the chisel edge there is pushing metal aside rather than cutting it, and on a wide bit that dead zone is doing most of the resisting. A pilot hole removes that centre material, so every later step only has to widen an existing hole with its outer cutting edges, where the tool actually cuts.
+- **Metal on metal generates serious heat.** Temperature climbs well past 500°C — visibly, the bit glows red and smoke comes off the work. Splash water onto the bit while it runs, or stop and dip it, at regular intervals.
+- **Why the heat destroys the bit rather than just slowing it:** a drill bit is hardened steel, and its hardness comes from a heat treatment the factory performs on other people's parts every day. Run it past its tempering temperature and it tempers itself further — it softens permanently, and no amount of cooling afterwards brings the hardness back (see [[Metallurgy]] on tempering). Cooling is not comfort, it is protecting the bit's heat treatment.
+- **A wall bit is not a metal bit.** The bit for piercing a wall has a **carbide tip** and is for masonry only — never use it on metal. That tip is a brazed-on chisel meant to crush brittle material under hammer action, not a cutting edge with proper rake; on steel it rubs instead of cutting, which makes heat and work-hardens the spot rather than producing chips.
+- **Stainless is a different job from aluminium** — far harder, and the stepping and cooling above are what make it practical rather than optional.
+
 ### When a tool physically cannot reach
 Some internal fluid veins in these hydraulic cores are as fine as **500 microns** (0.5 mm) — no cutting tool fits inside. Those passages are never machined at all. They are cleared with a **water jet spray** to blast out residual sand and impurities, and the plant simply relies on the casting itself having formed the passage accurately. This is the real reason casting precision is their obsession rather than strength: for those features, the as-cast surface *is* the final surface, with no second chance to correct it.
 

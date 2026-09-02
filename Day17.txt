@@ -1,0 +1,66 @@
+1st Sept 2026
+
+- We started actually doing the work of even gas leaking via a ring at bottom
+
+- We took a metal pipe which was straight with length closer to the furnace diameter
+
+- It had a inlet on both sides.
+
+- First at closed space intervals we made extremely tiny holes evenly spaced in the pipe with 
+mini drill
+
+- After finishing that we bent the pipe roughly manually. Which lead us to approx closer ring
+
+- The furnace inlet of the gas delivering line is made of SS. 
+
+- We measured the Ring's Diameter and With the help of bigger hand held drill(in our factory) we expanded the already existing hole in SS pipe for gas
+
+- SS is strong not simple as Aluminium. So we gradually increased the hole size. A good 
+learning of in general drilling a hole in any hard surface. Those few steps are below
+
+- First THe final Diameter of the hole in our destination will be slightly more than the diameter
+of the drill piece (because it rotates and makes extra space).
+
+- Secondly, when drilling in extreme hard metals (like in our case SS), dont directly drill the direct diameter,
+that would be too ineffecient. Rather first use a smaller diameter drill piece to make smaller hole, than bigger than bigger 
+and atlast our final required diameter piece. (We took 3 steps) 
+
+- Since in drilling metals both the drill peice and the Final place to be holed is metal
+it causes lot of friction causing lot of heat. The temperature raises easily above 500c which can be
+clearly seen with the drill peice being red hot and smoke appearing. So to protect the drill piece, regularly splash 
+water on top of the working drill to protect it, or take breaks and dip in water
+
+- Drill Piece for piercing Wall has a tip with Carbide, use only for Wall and not for drilling metal
+
+- After successful drilling the SS pipe we inserted our ring pipe (Tried temporarily without welding) as 
+the diamters were too close so we though it was perfect fit. For the other end we pinched and bent its mouth
+downwards thus completely closing the other ended mouth. 
+
+- Later we did actual test, Furnace opened, we started LPG supply and lit fire close to SS-Ring junction
+from safe distance with a long distant pipe soaked in diesel cloth. It showed a flame at the place of the junction, showing there is leak
+
+- We then concluded either the Ring inserted inside is broken somewhere or the junction is not tight enough. Anyway we need welding
+
+- We welded the junction properly. Now did the test again 
+
+- No flame visible in junction. And then moved the fire across the entire diameter of 
+ring, it lit flame all across our orriface openings. Like a series of Diwali Diyas. The 
+flame size also showed the diamter of hole openings. Main thing is the last hole should be lit, since 
+its the most far apart from origin
+
+- The Ring itself is metal, sitting well close to the Heating element. Which means it can short it if touched.
+Even though the Ring's diameters is shorter than the Furnace Diameter (Where Heating Element is kept).
+Even a simple movement via loading and unloading the coil holder will contact it. So we decided
+to firmly locate in place it via U-Pipe Clamp. So Clamps top down (tightened it with Furnace Bottom). Note that
+the Clamps should be tight with the holding location BUT the clamp itself should have space
+so the ring underneath it can move slightly, giving clearance for metal expansion since ring tolerates the Furnace Temperature itself
+
+- All this Ring Installation is Done on Furnace 9 (Vavdi)
+
+- Be careful on one thing - While welding and furnace related repairing things can be done 
+climbing down the furnace and doing hands on there. For checking the LPG flame like we did,
+no one should be there as while we are testing LPG keeps accumulating and a slowest flame 
+can result explosivness for worker
+
+- Done the project, we then did the Pagar (Paycheck day) since its Janmashtami and holidays are there
+(The average Salary noted is around 15,000 per month). Paycheck is done every month before the 7th Date.

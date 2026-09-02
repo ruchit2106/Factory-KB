@@ -34,6 +34,8 @@ The 4 workers are not stationed to a single site — they move between Bhaktinag
 - Workers argue slightly for more; the response given is to tell them to work correctly. They sign on things.
 - Why disputes happen: usually the record is ambiguous — attendance/overtime isn't captured in a form both sides trust. The durable fix is a cleaner record (daily register both sides sign, or a punch system), not arguing harder.
 - The payroll notebook is kept behind uncle's seat.
+- **"Pagar"** is the word used for payday. It is run **every month before the 7th**. Within that window it gets pulled forward for a festival break — the 01-09-2026 Pagar was done on the 1st because Janmashtami and the holidays after it were coming, so the workers were paid before the factory stopped.
+- **Average worker salary is around ₹15,000 a month.**
 
 ## Upaad (worker advances)
 - **Upaad** = an advance/loan given to a worker, which is then deducted from their salary over time. Tracked in its own notebook, kept behind uncle's seat (same location as the payroll notebook).
