@@ -147,6 +147,7 @@ Water-jacket inlet/outlet pipes are fixed onto the lid as part of closing up (se
 
 ## Vacuum pump
 - **Coverage:** furnaces 11 and 12 at Bhaktinagar share one pump, furnaces 9 and 10 at Vavdi share another (see Inventory), and **furnace 8 has its own small individual pump**.
+- **Sharing a pump is not a bottleneck:** vacuum is only drawn at the **start** of a cycle, occupying at most about half an hour, after which the furnace is locked and holds its own vacuum — freeing the pump for the other furnace for the rest of the cycle.
 - **It is an oil-flooded pump — the interior is entirely soaked in oil.** The oil does three jobs at once: it seals the running clearances so the pump can hold a vacuum at all, it lubricates the moving parts, and it carries away the heat of compression. A pump with bad oil doesn't fail loudly, it just stops pulling deep vacuum.
 - **Inlet filter:** a large perforated filter sits at the pump entrance — the holes pass air while stopping large debris. **Fine dust and smaller debris still get through, and so does the moisture pulled out of the furnace**, which ends up in the oil as water.
 - **Ports:** one big inlet pipe that sucks air in, and a second internal port that throws oil out.
@@ -184,18 +185,29 @@ Filtering recovers oil that is **contaminated** — water and particles come out
 - Workers are made to write "LPG" and "FURNACE" (labels/log on equipment) so they stay aware while working. Labelling is passive; the active version is a printed purge/light-up checklist at each gas-fired unit — lighting a furnace with unburnt gas accumulated inside is the classic small-shop explosion.
 
 ### Gas distribution topology (bottle → furnace)
-- Originally **one flow meter set per site**, shared: one at Bhaktinagar between furnaces 11 and 12, one at Vavdi between furnaces 9 and 10 — meaning **one furnace at a time on the meter**.
-- **Bhaktinagar now has 2 sets** (LPG + N2 flow meters each), one per furnace, so **11 and 12 can both be metered independently**. This removes the metering limitation there — note it was never a *production* limitation: both furnaces at a site always ran simultaneously and gas inlet to both was always physically possible, the sharing only meant you couldn't get proper individual numbers off both at once. Vavdi is still on the shared single set.
-- Why the second set matters for the decarb hunt: per-furnace gas figures are what let you compare furnace 11 against furnace 12 directly, instead of attributing a shared meter's total to whichever furnace was on it.
-- The shared vacuum pump is likewise not a bottleneck: vacuum is only drawn at the **start** of a cycle, occupying at most about half an hour, after which the furnace is locked and holds its own vacuum — freeing the pump for the other furnace for the rest of the cycle.
-- **Furnace 8 bypasses this entirely** — it takes gas direct from the bottle, with no flow meter in between, so it falls back on the older weighing method below.
-- Each flow meter carries **separate flow paths for LPG and for nitrogen**, so the two gases are metered individually.
-- **After the flow meter the two gases merge into one unified gas pipe**, which runs to whichever furnace is selected. So the mixing is deliberate and happens downstream of metering — the meters see pure single gases, the furnace receives the blend. (This is also the physical reality behind the shared-sideline safety concern above: LPG and N2 genuinely share one pipe by design from the meter onward.)
-- The unified pipe **enters the furnace at the BOTTOM**, through an inlet fitted with a **spring check NRV**.
-- From outside, the NRV is visible on the pipe where it meets the furnace. Inside the chamber that inlet was **a single hole** — the whole gas charge entering at one point — until the distribution ring below was fitted onto it.
+The path runs in four stages, and they are independent of each other — changing one does not change the others. Most confusion about this system comes from collapsing them together.
 
-### Gas distribution ring (perforated bottom ring)
-Built and fitted on **furnace 9 (Vavdi)**, **01-09-2026**, replacing that furnace's single-point gas inlet with a ring that releases gas across the whole base of the chamber. Furnace 9 is also the furnace currently carrying the single oxygen probe, the digital pressure gauge and the digital solenoid (see Inventory, Pressure measurement and Oxygen probe), so it is the most instrumented of the four. The other three big furnaces still run the single-hole inlet. **This one is a trial** — whether any further rings get built depends on what this one does. Aimed at the LPG-distribution theory of the decarb problem (see Decarb — atmosphere control & troubleshooting below).
+**1. Source — the bottles.**
+- **One common set of LPG and N2 bottles per site**, feeding that site's furnaces. This is the arrangement at **both** sites, and it is unaffected by how many meters sit downstream or how the line finally enters a furnace.
+
+**2. Metering — the flow meter sets.**
+- Each flow meter set carries **separate flow paths for LPG and for nitrogen**, so the two gases are metered individually.
+- **Vavdi:** one common junction and **one meter set** for furnaces 9 and 10 together, so **one furnace at a time is on the meter**.
+- **Bhaktinagar:** the same single bottle source, but **2 meter sets**, one running to furnace 11 and one to furnace 12, so **both are metered independently**.
+- Sharing a meter is a **metering** limit, never a production one: both furnaces at a site always ran simultaneously and gas inlet to both was always physically possible — sharing only means you cannot get proper individual numbers off both at once.
+- Why the second set matters for the decarb hunt: per-furnace gas figures are what let you compare furnace 11 against furnace 12 directly, instead of attributing a shared meter's total to whichever furnace was on it. Two separate metered paths also leave room to run **multiple gas bottles** in future rather than the one common source.
+- **Furnace 8 has no meter at all** — it takes gas direct from the bottle, so it falls back on the weighing method (see Gas consumption measurement below).
+
+**3. Merge — one pipe to the furnace.**
+- **After the meter the two gases merge into a single unified pipe**, which runs to whichever furnace is selected. The mixing is deliberate and happens downstream of metering: the meters see pure single gases, the furnace receives the blend. This is the physical reality behind the shared-sideline safety concern above — LPG and N2 genuinely share one pipe by design from the meter onward.
+
+**4. Inlet — how the line terminates into the furnace.**
+- The unified pipe **enters at the BOTTOM**, through an inlet fitted with a **spring check NRV**. From outside, the NRV is visible on the pipe where it meets the furnace body.
+- Inside the chamber that inlet is **a single hole** — the whole gas charge entering at one point.
+- **This last stage is the only thing the distribution trials changed.** The bottles, the meter and the pipe run are untouched and identical across all four big furnaces. **Furnace 9** carries a perforated ring on its single inlet, **furnace 10** has been cut to **3 inlets** each with its own NRV, and **furnaces 11 and 12** still take the gas through one hole (see the two trials below).
+
+### Gas distribution trial 1 — perforated ring (furnace 9)
+Built and fitted on **furnace 9 (Vavdi)**, **01-09-2026**, replacing that furnace's single-point gas inlet with a ring that releases gas across the whole base of the chamber. Furnace 9 is also the furnace currently carrying the single oxygen probe, the digital pressure gauge and the digital solenoid (see Inventory, Pressure measurement and Oxygen probe), so it is the most instrumented of the four. **This is a trial.** The second furnace was given a different design instead of a copy of this one — see Gas distribution trial 2 below. Aimed at the LPG-distribution theory of the decarb problem (see Decarb — atmosphere control & troubleshooting below).
 
 **How it was made:**
 - A **straight metal pipe**, length close to the furnace diameter, open at **both ends**.
@@ -219,6 +231,33 @@ Built and fitted on **furnace 9 (Vavdi)**, **01-09-2026**, replacing that furnac
 - **The acceptance criterion is the last hole** — the one farthest from the inlet. If the far hole lights, gas is reaching the whole ring rather than escaping early; every hole before it is fed by definition.
 - ⚠️ **Safety concern — nobody is inside or at the furnace during the flame test.** Welding and ordinary furnace repair are done hands-on, climbing down into the furnace, and that is fine. The flame test is not: with LPG running, **gas keeps accumulating in the chamber throughout the test**, and the ring sits at the bottom where LPG — heavier than air — collects (see Gas lines above). Under those conditions even the smallest flame near a worker is an explosion, not a burn. The test is run from a distance on a long pole, with the furnace clear of people. The distinction to hold onto: **repair work means a person can be down in the furnace; gas testing means nobody can.**
 
+### Gas distribution trial 2 — multiple inlets (furnace 10)
+Fitted **16-09-2026** on **furnace 10 (Vavdi)**. Same goal as the ring — spread the gas rather than admit it all at one point — but reached by adding inlets to the furnace instead of putting a distributor inside it.
+
+**The build:**
+- **Two more real holes were cut into the furnace, each with its own proper NRV fitting**, taking furnace 10 from 1 gas inlet to **3**.
+- The feed splits outside the furnace: the main pipe hits a **T junction** making two, and one of those offsets hits **another T junction**, making three pipe inlets in all. Electrically, this is a **parallel connection**.
+
+**Why this is the better of the two designs:**
+- **Every inlet keeps its own NRV**, so the reverse-flow protection that already guards the single inlet now guards all three (see Spring check NRV below).
+- **Nothing is added inside the chamber.** The ring on furnace 9 is loose metal near the heating elements and has to be clamped against shorting them (see trial 1 above). Three inlets have no such part, so that failure mode does not exist here.
+
+**The gas network behaves like an electrical circuit**, and the analogy is exact enough to reason with:
+
+| Electrical | Gas |
+|---|---|
+| Voltage | Gas pressure |
+| Current | Gas flow |
+| Resistance | Hole size — inversely: a wider hole is less resistance |
+
+- The three inlets are in **parallel**, so they all see essentially the **same pressure**, the way parallel branches share a voltage. What small differences exist come from the resistance of the pipe run itself.
+- Because the **holes differ in width**, the three branches differ in resistance, so each carries a **different flow** — exactly as parallel resistors of different values draw different currents off one voltage. It shows directly as a different flame at each hole.
+- The practical consequence: with pressure common to all three, **hole size is the only thing setting how the gas splits between them**. Sizing the holes is how the distribution gets tuned.
+
+**Flame test:** the same method as the ring — a long diesel-soaked cloth held close to the face of a hole, giving a constant flame.
+- **Flame length/height reads the gas flow** through that hole. Since all three inlets sit at a common pressure, flow in turn reads hole size, which is why the flames differ visibly between them.
+- ⚠️ The same occupancy rule applies as on the ring: nobody at the furnace while LPG is running for a flame test (see trial 1 above).
+
 ### Spring check NRV (non-return valve)
 - A purely **mechanical, one-way valve** — no electrics, no control signal. Gas must go into the furnace only, never back out toward the meter and bottles.
 - **How it works:** an internal spring holds a sealing sheet/disc against a seat. Forward gas pressure pushes the sheet off its seat and flows through; the moment forward pressure drops, the spring snaps the sheet back onto the seat and blocks reverse flow. The blocking is automatic and instant — it needs nothing to detect the reversal, because the loss of pressure *is* the trigger.
@@ -236,7 +275,7 @@ Built and fitted on **furnace 9 (Vavdi)**, **01-09-2026**, replacing that furnac
 - An outside consultant (found via LinkedIn, experienced with furnace work) suggested a specific candidate cause: heating-element wires touching each other, which could block LPG from reaching some parts of the furnace — worth checking as a physical/mechanical cause distinct from the atmosphere-chemistry theories above (see [[Day4]]).
 - Corroborating instance: the Pioneer job was run on **furnace 12 (Bhaktinagar)**. **Furnace 12 also produced an unintended grain microstructure on that same material** (see [[Metallurgy]], Grain structure defect on the Pioneer material), so this furnace is generating two different classes of defect, not just decarb. Operator error on that run was checked and ruled out (see [[Workers]], Post-incident worker interrogation) — what is actually wrong with furnace 12 is still unknown.
 - Comparative clue: the two Vavdi furnaces show **less** decarb trouble than the Bhaktinagar ones, despite all four sharing the same design. Vavdi has the problem too — this is a difference of degree, not a clean split, so it is a weak signal rather than a lead to build on (see [[Day5]]).
-- **Candidate cause now under active test: LPG *distribution* inside the chamber, not LPG *quantity*.** The gas enters through a single hole at the bottom of the furnace (see Gas distribution topology above), so the theory is that the LPG never spreads across the charge — what goes in does not reach the material. A different class of cause from the earlier candidates (too little LPG, a leak, elements touching): on this theory the flow-meter numbers read correct while the atmosphere at the coil is still starved, which would explain readings that differ across cycles identical on paper. **The distribution ring built for this is now fitted** (see Gas distribution ring above). Its flame test proved the gas reaches every hole around the ring — that is a test of the ring, not of the theory. Whether spreading the gas actually moves the decarb numbers takes readings off treated material.
+- **Candidate cause now under active test: LPG *distribution* inside the chamber, not LPG *quantity*.** The gas enters through a single hole at the bottom of the furnace (see Gas distribution topology above), so the theory is that the LPG never spreads across the charge — what goes in does not reach the material. A different class of cause from the earlier candidates (too little LPG, a leak, elements touching): on this theory the flow-meter numbers read correct while the atmosphere at the coil is still starved, which would explain readings that differ across cycles identical on paper. **Two different fixes for it are now fitted**, both at Vavdi: a perforated ring on furnace 9 and three separate inlets on furnace 10 (see Gas distribution trials 1 and 2 above). Both passed their flame tests, which proves each distributes gas as built — that is a test of the hardware, not of the theory. Whether spreading the gas actually moves the decarb numbers takes readings off treated material.
 - The actual instrumentation gap behind the guesswork: gas consumption (LPG/N2) has no digital chart the way temperature does via ESCAN — it's only ever logged manually on paper (see Gas consumption measurement below), so there's no way to overlay a gas-usage graph against the ESCAN temperature graph to spot correlations. The fix is being sourced — see Panel above, Upgrade in progress.
 
 ### Oxygen probe / Carbon Potential (CP) control

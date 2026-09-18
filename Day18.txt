@@ -1,0 +1,24 @@
+16th Sept 2026
+
+- We did similar experiment differently in Furnace number 10
+
+- Instead of a Ring with orifices kept at bottom of Furnace we rather did different approach .
+
+- We installed 2 more actual holes with proper NRV fitting in Furnace 10 totalling our Gas input 
+as 3 
+
+- So now the main pipe has a T junction making it 2. THat offset then again comes with a T Junction
+making another offset. Thus making 3 pipe inlets. These roughly makes a parallel connection like an 
+electric circuit
+
+- ALl 3 have similar (Slight PRessure Drop becasue of resitance of the pipe iself) pressure,
+but since the hole width is different we have different resistance values. Due to different hole size
+we have different flow rates of gas thus the flame burning is different. (Resitance - Hole size, Current - Gas FLow, Voltage - Gas Pressure)
+
+- This gives us extra protection of NRV as well as no external dependency from ring leading to any short circuiting, 
+so a slightly better approach.
+
+- The Flame test we do is similar to the ring approach, via a long diesel soaked cloth 
+kept close to the face of hole which leads to constant flame.
+
+- The Flame's Length/Height determines the gas flow
