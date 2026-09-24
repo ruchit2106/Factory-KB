@@ -8,7 +8,7 @@ This repo is a knowledge base of plain notes describing Ruchit's family heat-tre
 - **Ruchit:** CS grad, 2 yrs software experience, joined his father's heat treatment job-work factory. Org structure: father (technical) + uncle (management) + workers — which is why he has no one to catch his mistakes and wants brutal honesty instead. Learning profile: theory-driven, class topper, strong 11th–12th physics (his closest prior exposure to metallurgy); everything professional since has been CS. Zero hands-on shop-floor/mechanical experience — treat him as a complete beginner there, but comfortable with rigorous physics reasoning.
 
 ## Layout
-- `Science/` — metallurgy, furnace engineering, lab testing, manufacturing processes.
+- `Science/` — metallurgy, furnace engineering, electrical engineering, mechanical engineering, lab testing, manufacturing processes.
 - `Operations/` — business, customers, pricing, process, workers, finance, site.
 - `Observations/DayN.md` — the dated log.
 - `DayN.txt` at root — Ruchit's raw dumps, the source material for ingestion.
@@ -21,7 +21,7 @@ This repo is a knowledge base of plain notes describing Ruchit's family heat-tre
 - Don't act on any file Ruchit explicitly says to hold off on ingesting — wait for an explicit go-ahead.
 - `Science/iron-carbon-diagram-notes.md` is **isolated** (since 2026-07-19): Ruchit is reworking it himself. Don't edit it, don't wikilink to it (mention it only as unlinked prose), don't merge new facts into it — until he gives the go-ahead.
 - Ingest only when Ruchit says the raw file is final. If he says he changed specific lines, re-read only that range.
-- Keep a consistent language throughout the KB. Your any number of sessions should land up using similar language that is used here, so take a note on that as well
+- Keep the KB's language consistent across sessions — match the phrasing and tone already in the files rather than introducing a new register.
 
 ## Retrieve rules
 - "Dumb" describes where an answer's CONTENT comes from, not whether Claude reasons. Ruchit uses retrieval for both **revision** (what do I know about X) and **problem-solving** (what should I do / why did this happen) — for problem-solving, connecting and reasoning across multiple stored facts is expected and wanted.
@@ -39,11 +39,15 @@ This repo is a knowledge base of plain notes describing Ruchit's family heat-tre
 - When a real topic (not a mere attribute) genuinely has multiple distinct angles — pure science, engineering/troubleshooting, business impact — split it across the existing departments that own each angle, each with its own section, cross-referenced rather than duplicated.
 - Daily observation-log files start directly with the heading and the notes — no self-describing intro sentence.
 - No boilerplate that just repeats structural/navigational info already obvious from file location.
-- Ruchit reads this vault in **Obsidian** (`D:\Factory` opened as the vault; vanilla, no plugins). Cross-references are written as **`[[wikilinks]]` with bare filenames** (e.g. `[[Furnace-Engineering]]`, `[[Day3]]` — unique basenames, so no folder prefix; `[[DayN]]` resolves to the Observations log, never the raw .txt). Section pointers stay prose after the link. Ignore the `.obsidian/` config folder.
+- Read in **Obsidian** (vanilla, no plugins). Cross-reference with `[[wikilinks]]`, bare filenames, no folder prefix — `[[DayN]]` is the Observations log, never the raw .txt. Section pointers stay prose after the link. Ignore `.obsidian/`.
 
 ## Routing rules (where a fact goes)
 
 **Fan out by angle, never by object.** Fan out when one topic has genuinely distinct angles that get asked separately — gas: supplier and negotiation in Business, cost per kg in Pricing, consumption and measurement in Furnace-Engineering. Each file carries only its own angle, cross-referenced, never duplicated. Don't fan out per piece of equipment (no `VacuumPump.md`, no `Panel.md`) or by physical containment: real questions cut across objects, so object-per-file means opening six files to answer one thing. Files by question domain, sections by object. A `##` section graduates to a file only when **all three** hold — it outgrows a screen or two, it gets asked about without its parent in the question, and it has its own internal structure. No hub/container file that exists to link others; that's the banned index file renamed.
+
+**Which `Science/` file — the across-town test.** `Science/` vs `Operations/` splits technical from commercial. Inside `Science/`: **would a shop across town find this line equally true?** Yes → the discipline file. No, it's about our plant → the plant file owning the object: [[Furnace-Engineering]] (furnaces and their systems), [[Site]] (haul-out test below), `Operations/*` (commercial). Furnace-Engineering is the plant file that happens to be technical — it reads practical throughout by design, don't "fix" that. Centre of gravity decides, not purity: a discipline file may keep one of our instances where it exists to illustrate the theory (the Pioneer grain defect in Metallurgy).
+
+**The same test on a fact's two whys, and links run one way.** A dump usually gives both halves. **Theoretical why** — true forever, never edited again → discipline file. **Practical why** — why *we* do it this way with this equipment, changes when the equipment does → stays in the plant file, with a wikilink out for the depth. **The link runs one way; the discipline file never links back**, and carries no roll-call of which machine it applies to. Two exceptions: **no discipline home → stays fused** (pit/bell/horizontal body design); and **never split into stubs** — split only when both halves stand alone (oxygen probe / CP, gas safety properties).
 
 **Money — earned vs already ours.** Still being earned from clients → Pricing (rates, quoting, credit/outstanding, per-kg cost) and Business (suppliers, negotiation). Already ours and doing something → Finance (accounts, FD/OD, IPO, deployment of surplus). Idle plots: the asset decision stays in Business, the proceeds once parked or deployed go to Finance.
 

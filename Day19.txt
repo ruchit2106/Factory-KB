@@ -1,0 +1,59 @@
+19th September
+
+- There was an issue in Vavdi Crane Motor (Issue in Crane should be seen first as entire loading unloading stops)
+
+- Both Vavdi Cranes are 7.5 Tones.
+
+- We dissambled and saw it
+
+- It is 3 phase 400V(L-L) AC Motor Squirel Caged INduction Motor. (Most of them in Rajkot for Industrial Crane are these only)
+
+- The issue was in the Gear Box. The connection of Gear Box with the Motor
+
+- We saw why cranes use Gear Box and not Open simple Gear Train. Gear Box is
+Gear Train + Entire thing submerged under Oil. That Oil dissipates heat/fricton all that stuff so 
+that gear have longer life. Everything inside Gear Box is oil dipped. We can see Gear Train, One Original Shaft INcoming from Motor,
+rotates a smaller which finally rotates the the last Gear.
+
+- Our New Cranes (Alloy and Bright Corporation are newer plots) are from Local Crane Manufacturers(done so that we can get fast response)
+These Local Brands assemble Cranes from multiple sources (like the Gear Box from SEW Eurodrive). So we contact them first
+
+- IN general for majority of equipment here- Contact from the those 
+from whom we bought stuff.
+
+- The Gear Box Casing (Box) is specialised Aluminium Casting and the Gears inside are metal. We needed to 
+fill the screw hole. Since its Aluminium Casting, it is very tough for us to do anything. So handle with care
+
+- We saw inside the Gear Box anything that rotates across fixed thing uses ball bearings. It is kinda general rule
+for Mechanical Engineering
+
+- Try Repairing First cause entire new Gear Box requires much more Cost.
+
+- So we will contact the local welding/machining shop/factories which can see the Gear Box
+and suggest what can be done
+
+- We learnt the basics of Squirrel Cage 3 Phase AC electric Motor, how it contains Fans 
+and this is the most industrial used design. Rotors and Stators
+
+- We learnt basics of Electricity relevant to our industry.
+
+- How Anything with AC products lists the RMS value and not the Peak.
+
+- We learn about Line-to-Line Voltage and Line-to-Neutral Voltage. 
+
+- Simple Formulas to Remember(Most Used) :- (L-N/Single Phase to Neutral) (L-L/2 Phases Line to Line) (any=L-N/L-L)
+V(any)peak = root2 * V(any)rms
+V(L-L)(peak/rms) = root3 * V(L-N)(peak/rms). 
+
+- Simple Values.
+
+V(L-N)(rms) = 220~230 V
+V(L-L)(rms) = 380~400 V
+
+- Outwards from TC(Distribution Transformer/ Step Down, which reduces Voltage) everything coming inside our Factory
+comes from these 3 phase 220 V lines, so nothing exceeds 1000s of voltage, everything remains well below 1000v
+and everything is measurable from our voltemeters that we have, so no worries of voltemeter exploding
+
+- We learnt most of the Gear Boxes have a Input Hole and Drain Plug Hole for Oil input and Output
+
+- We learnt that for most of AC Working Machines Motor/Generator, stator is the one receiving current and rotor is the one rotating.

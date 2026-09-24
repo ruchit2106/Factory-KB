@@ -7,9 +7,11 @@
 
 ## What actually comes in
 - **Steel coils are the standard intake** — the routine, high-volume material the plant is built around (the big furnaces are sized for 10–25 mm wire at 2.5 ton/lot, see [[Furnace-Engineering]]).
-- **Direct machine parts and ready-made finished parts come in sparsely** by comparison — a real but minor stream.
+- **Direct machine parts and ready-made finished parts come in sparsely** by comparison — a real but minor stream, and castings (SuperEngiTech, see [[Day8]]) sit inside it.
 - **Which furnace absorbs a job is decided by quantity and weight, not by part type.** A small quantity/low weight of parts goes into furnace 8 (the small single-zone furnace); a large one goes into a big furnace. So "machine parts" and "furnace 8" correlate only because those jobs usually arrive small — a large enough consignment of machine parts is run on a big furnace like any other lot.
-- Upstream, that means most incoming material arrives via rolling and drawing, not casting or forging — see [[Manufacturing-Processes]].
+- Upstream, that means most incoming material arrives via **rolling and drawing**, not casting or forging, and bearing-related and fastener customers sit on that route. The factory sits inside the drawing cycle itself: draw → anneal → draw → anneal, and the anneal is our work (why drawing needs it: see [[Manufacturing-Processes]], Rolling and drawing).
+- **Materials:** the main material is **EN31 / 52100** (job name: "alloy heat treatment" — see [[Metallurgy]], EN31 / 52100). **Mild steel** is everything else the factory processes.
+- **This factory does not quench** — it did quenching earlier, and has since stopped. 60+ HRC hardening physically requires a quench, so our EN31 work is something else: **annealing/spheroidizing for machinability** (the actual product sold on EN31 — see [[Metallurgy]], Spheroidite), tempering/stress relief, or a pre-treatment before another shop hardens. Incoming EN31 arrives already annealed and machinable.
 - **Small individual parts are unloaded in the outer open area**, and go from there into furnace 8. Their arrivals are recorded **twice**: in a handwritten notebook, and in a **separate Excel sheet** distinct from the Master Excel sheet below.
 
 ## Tempering on sample parts
@@ -22,6 +24,14 @@ Customer part arrives → inward entry (challan ref, weight/qty, LOT assigned)
 → hardness test → outward entry → challan + e-way bill (Rasik) → dispatch
 ```
 
+## Testing the output
+- **Hardness is tested in-house** on the Rockwell rig, which is kept **outside the factory building**; the loose weights that make up its loads are kept at the rig itself. Scales used: **HRB and HRC** only (how to run the test: see [[Lab-Testing]], Measuring HRC).
+- **Other tests go to an outside lab as a sample:**
+  1. Worker cuts a sample piece off a heat-treated coil.
+  2. The **coil number is written directly on the cut piece** — this is what ties the lab result back to a specific lot (see Material identification below).
+  3. The piece is handed to a worker, who carries it to the lab.
+- The structure-test lab **closes around 7 PM**, which is the real constraint on this loop: a sample cut after that waits until the next day, so a cycle finishing late in the evening can't be verified until the following day — by which time the coil may already have moved on.
+
 ## Back-to-back batching
 - Where possible the next batch is started **as soon as the previous one finishes**, so the furnace is still hot and less energy is needed to bring it back up to temperature — a direct saving on the electricity bill.
 - This is why the changeover is pre-loaded and run fast (see [[Furnace-Engineering]], Unloading and loading): the coil for the next batch is made ready before the lid is opened, so no heat is lost to a furnace standing open and waiting.
@@ -29,7 +39,7 @@ Customer part arrives → inward entry (challan ref, weight/qty, LOT assigned)
 
 ## Material identification
 - Incoming material identified by **diameter (e.g. 20 mm) + material grade**. This is the basic spec key used to match a part to its correct process.
-- A **heat number** (see [[Metallurgy]]) travels with material as a batch ID tied to the parent mill coil/rolling. Used like a lot number, but assigned upstream by the steelmaker, not by this factory.
+- A **heat number** (see [[Metallurgy]]) travels with material as a batch ID tied to the parent mill coil/rolling. Used like a lot number, but assigned upstream by the steelmaker, not by this factory. The low-carbon spectral finding in [[Day2]] is exactly the kind of dispute a heat number should be able to settle.
 - Everything is logged in an Excel sheet (see Paper/GST flow below).
 - ⚠️ **Safety concern (material handling):** hot and cold steel look visually identical below ~500°C — a part at 400°C looks room-temperature and will take skin off. Never handle parts moving through the furnace charge/output stage without checking temperature first (spit-drop, IR thermometer, or ask).
 

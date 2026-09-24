@@ -18,7 +18,7 @@ Rates and credit terms per customer are in [[Pricing]]. Competitors, market posi
 | Apple | |
 | Kaant | |
 | Motion | |
-| PreVal | Runs on credit terms rather than per-job payment (see [[Pricing]]). Sends **machine components in special-grade stainless**, already solution-treated on their side, for us to stress relieve — the job the HRC readings were taken on (see [[Metallurgy]], [[Lab-Testing]]). |
+| PreVal | Runs on credit terms rather than per-job payment (see [[Pricing]]). Sends **machine components in special-grade stainless**, already solution-treated on their side, for us to stress relieve. On that job hardness went **up**, **40 HRC before → 47–48 HRC after**, which is how the process was confirmed successful (why it rises: see [[Metallurgy]], Stress relieving on special-grade stainless; readings taken per [[Lab-Testing]], Measuring HRC; see [[Day10]]). |
 | Pelican EngiTech | Shared a detailed benchmark lab report (Rajkot Metlab) of their material after treatment by their *other* heat treaters — 0-micron decarb — to show the precision level they want from us (see [[Lab-Testing]], Labs & full-panel reports, and [[Day7]]). |
 
 ## Former clients

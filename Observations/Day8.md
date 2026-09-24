@@ -21,4 +21,4 @@
 - Data path to ESCAN: digital display → CPU over **RS232/RS485**, and it's **simplex** (thermocouple is a pure emitter, CPU never talks back). Simplex/half-duplex/full-duplex definitions promoted to [[Furnace-Engineering]], Data link.
 
 ## Lab sample handling
-- Saw Sandeep cut a sample off a heat-treated coil, write the coil number on the piece, and hand it to a worker to take to the lab. The structure lab closes ~7 PM. Promoted to [[Lab-Testing]], Sending a sample out.
+- Saw Sandeep cut a sample off a heat-treated coil, write the coil number on the piece, and hand it to a worker to take to the lab. The structure lab closes ~7 PM. Promoted to [[Process]], Testing the output.
