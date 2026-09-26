@@ -16,7 +16,7 @@ Core mechanism: steel is iron + carbon. Past ~727°C the crystal structure becom
 ## Pig iron — the starting material of everything
 - **Pig iron** is the direct output of a blast furnace: iron ore reduced with **coke** (carbon), which is why it comes out saturated with carbon at roughly **3.5–4.5%**. Made by large integrated mills (JSW and similar) who work from ore; foundries and steel mills buy it as a charge material rather than reducing ore themselves.
 - Everything downstream is defined by what happens to that carbon: **steelmaking is the act of removing carbon** from pig iron down below ~2%, while **iron founding simply keeps it** — which is why cast iron is the cheaper route (it skips the refining step entirely).
-- Why it melts so much lower than pure iron: pure iron melts at **1538°C**, cast iron at roughly **1150–1200°C**. Carbon dissolved in iron disrupts the single clean crystal lattice, so the mixture no longer has one preferred solid arrangement and begins melting lower. The minimum is the **eutectic at ~4.3% C, 1147°C** — the lowest-melting composition in the whole Fe–C system, and pig iron sits close to it by accident of how it's made. Practical upshot: cast iron is castable with ordinary foundry equipment and stays fluid enough to fill thin sections, while low-carbon steel needs ~1500°C and pours sluggishly. (Seen in practice at SuperEngiTech, melting ~1200°C — see [[Manufacturing-Processes]].)
+- Why it melts so much lower than pure iron: pure iron melts at **1538°C**, cast iron at roughly **1150–1200°C**. Carbon dissolved in iron disrupts the single clean crystal lattice, so the mixture no longer has one preferred solid arrangement and begins melting lower. The minimum is the **eutectic at ~4.3% C, 1147°C** — the lowest-melting composition in the whole Fe–C system, and pig iron sits close to it by accident of how it's made. What that means for a foundry — castability, fluidity, and why a steel foundry has the harder job — is in [[Manufacturing-Processes]], Why the melt is only ~1200°C.
 
 ## Decarburization (decarb) — the science
 - Above ~700°C, oxygen in air strips carbon from the steel surface. The skin (0.1–0.5 mm) becomes low-carbon and stays soft after any hardening.
@@ -26,7 +26,7 @@ Core mechanism: steel is iron + carbon. Past ~727°C the crystal structure becom
 
 ## Carbon Potential (CP), surface carbon deposition, and Carburizing
 - **Carbon Potential (CP)** is a way of describing how much carbon a furnace atmosphere will push into (or pull out of) a steel surface at a given temperature — essentially, whether the atmosphere is carbon-hungry (strips carbon = decarb) or carbon-rich (deposits surplus carbon) relative to the steel.
-- A high positive CP **deposits surplus carbon onto the steel surface** — visible as black carbon sitting on top of the steel, enough to wipe off on a finger. Deposition alone does not push carbon into the steel: the carbon sits on the surface, it does not fuse inward.
+- A high positive CP **deposits surplus carbon onto the steel surface** — visible as black carbon sitting on top of the steel. Deposition alone does not push carbon into the steel: the carbon sits on the surface, it does not fuse inward.
 - **Carburizing** is the distinct process where surplus carbon actually fuses into the steel's interior — and it needs a high temperature. Why temperature is the gate: carbon only enters solid steel by diffusion, and diffusion mobility climbs steeply with temperature — below the carburizing range, carbon atoms can't migrate inward, so surplus carbon just piles up on the surface. So below the carburizing range, a high CP blackens the surface but cannot carburize the part. (Deliberate carburizing at ~900°C is how case-hardening shops make hard-skin gears — see the iron-carbon diagram notes, case hardening.)
 - Decarb and carbon deposition are two sides of the same coin: the furnace atmosphere sits somewhere on a spectrum from carbon-stripping to carbon-depositing, and CP is the number that says exactly where. Controlling CP precisely is therefore the real target — not decarb prevention in isolation — since overcorrecting against decarb pushes the atmosphere far enough the other way to start depositing surplus carbon instead.
 
@@ -38,12 +38,11 @@ The media, fastest to slowest:
 
 Why water extracts heat faster than oil at all: water has both a higher **specific heat capacity** (energy absorbed per degree of temperature rise) and a higher **thermal conductivity** (how fast it carries that heat away).
 
-## Grain structure defect on the Pioneer material
-- The structure report on Pioneer's material showed the **grain microstructure was not what was intended** — a defect in its own right, separate from the decarb found earlier on the same client's material and separate from the cracking he is complaining about.
-- **The cause is not known.** It came off **furnace 12 at Bhaktinagar** — the same furnace and the same site behind the unexplained decarb inconsistency (see [[Furnace-Engineering]], Decarb — atmosphere control & troubleshooting). The operator on that run was questioned and no mistake was found (see [[Workers]], Post-incident worker interrogation), so operator setting is not the explanation.
-- What makes furnace 12 the common thread worth chasing: grain structure is a direct product of the cycle — austenitizing temperature, soak time and cooling rate together decide what structure comes out. Decarb is driven by atmosphere. That one furnace is producing **both** kinds of defect points at something wrong with the furnace itself rather than at any single parameter.
-- Why grain structure is worth taking as seriously as decarb: decarb is a surface skin, whereas the grain structure is the **bulk property of the whole part** — it sets strength, toughness and machinability throughout the section, not just at the surface. Coarsened grains from overheating in particular are only fixed by re-treating (re-normalising), not by grinding anything off.
-- How it was caught: the structure test with a Nital etch (see [[Lab-Testing]], Structure test) — the same test that separately exposed EN-8 sent in place of EN-31 on this client's material.
+## Grain structure — a bulk property, set by the cycle
+- **Grain structure is a direct product of the cycle** — austenitizing temperature, soak time and cooling rate together decide what structure comes out. Decarb, by contrast, is driven by atmosphere.
+- **Why it is worth taking as seriously as decarb:** decarb is a surface skin, whereas the grain structure is the **bulk property of the whole part** — it sets strength, toughness and machinability throughout the section, not just at the surface. Coarsened grains from overheating in particular are only fixed by re-treating (re-normalising), not by grinding anything off.
+- **How it is caught:** the structure test with a Nital etch (see [[Lab-Testing]], Structure test).
+- **Instance — the Pioneer material.** The structure report on Pioneer's material showed the **grain microstructure was not what was intended**, off **furnace 12 at Bhaktinagar**; the cause is not known. A defect in its own right, separate from the decarb found earlier on the same client's material and separate from the cracking he is complaining about. The same structure test separately exposed EN-8 sent in place of EN-31 on this client's material.
 
 ## Delay between hardening and tempering — the cracking mechanism
 - Practical rule: after quenching (hardening), the part **must be tempered within a fixed stipulated time**. Left overnight untempered, bars **start cracking on their own**, with no further load applied.
@@ -63,7 +62,7 @@ Hardness testing mechanics (Rockwell/Brinell scales, indenters, the test rig) ar
 ## Stress relieving on special-grade stainless — hardness goes UP
 - The sequence: a **special-grade stainless steel** part is **solution treated** (~1000°C), then **stress relieved**.
 - **Solution treatment** = heat high enough to dissolve alloying elements back into a single uniform solid solution, then cool fast to hold them there. It leaves the steel in a soft, supersaturated, unstable state.
-- For this grade, the subsequent lower-temperature hold **raises hardness** rather than lowering it: the held-in-solution elements come back out as fine precipitates, which obstruct dislocation movement and strengthen the metal. Measured on one such part: **40 HRC before → 47–48 HRC after**.
+- For this grade, the subsequent lower-temperature hold **raises hardness** rather than lowering it: the held-in-solution elements come back out as fine precipitates, which obstruct dislocation movement and strengthen the metal.
 - Why this is worth flagging: it runs opposite to the usual heat-treatment intuition, where a post-treatment reheat (tempering) *softens*. Which direction hardness moves depends on the alloy and its prior state, not on the reheat alone.
 
 ## Spot hardening

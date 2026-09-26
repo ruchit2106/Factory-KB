@@ -21,7 +21,9 @@ The general electrical science the factory runs on — supply, machines, and the
 - **The squirrel-cage induction motor is the most-used industrial motor design**, and nearly every industrial crane motor in Rajkot is one.
 - **How it works:** the 3-phase currents in the stator produce a magnetic field that **rotates on its own**, with no switching device needed to make it turn — the 120° displacement between the phases is what makes the field sweep round. That rotating field drags the rotor after it.
 - **Why it lasts:** the rotor is a cage of conducting bars shorted at both ends, with **nothing connected to it electrically** — no brushes, no slip rings, no commutator. There is nothing on the rotor to wear out or replace, which is why the design survives in a dusty shed with no maintenance and starts straight off the supply with no drive electronics in between.
-- **It cools itself:** a **fan** on the shaft pushes air over the frame whenever the machine is running.
+- **It cools itself:** a **fan** on the shaft pushes air over the frame whenever the machine is running, and the frame carries **fins** that multiply its surface area in contact with that air.
+- **Motor bodies are commonly aluminium castings** for light weight and fast heat dissipation: aluminium conducts heat far better than steel, so the heat from the windings reaches the fins and leaves quickly. Gear box casings are cast aluminium for the same reasons.
+- **Brake motors carry two separate supplies:** one set of **3 power inlets for the rotation** (the stator windings) and a separate set of **3 for the brake** — a **rubber brake** that stops the rotating shaft. A lifting motor needs one because the gear train behind it can be back-driven by the load (see [[Mechanical-Engineering]], Gear boxes). On lifting duty the brake is built to hold by spring and be released by its own supply, so a power failure leaves the load held rather than dropping.
 
 ## Resistance heating elements: Kanthal vs Nichrome
 - **A heating element is resistance wire wound into a coil.** The coil shape exists to fit a long resistance length into a compact space — that is how any electric heating coil is built.
@@ -54,6 +56,17 @@ The general electrical science the factory runs on — supply, machines, and the
 ## Protection: fuses in series
 - **Two fuse sets wired in series on the same phase are a redundancy layer, not a doubled rating.** If the primary set fails to open under fault — rare, but possible — the second set is the backstop. Cheap insurance against the fire or equipment-damage event that a single fuse layer missed.
 - **Fuse quality is a safety property, not only a reliability one.** A fuse that does not trip at its rated point defeats the whole redundancy design, and an under-tripping fuse means unprotected fault current.
+
+## Protection: fuse vs MCB, current rating vs breaking capacity
+- **A fuse is one-shot; an MCB is a switch that trips.** A fuse melts open and has to be replaced; an MCB (miniature circuit breaker) trips and is reset.
+- **A fuse is cheaper and faster-acting than an MCB — but where it trips a lot, the MCB wins on cost**, because there are no replacement fuses to keep buying.
+- **A fuse's current rating has to sit above the load's normal running current.** A fuse rated too low for what it feeds blows in ordinary running, with no fault anywhere — a nuisance trip every time the load comes on.
+- **HRC means High Rupturing Capacity** — it rates the fault current the fuse can safely break, which is a separate specification from the ampere rating it carries in normal running. HRC fuses are the type used at industrial supply points, where both the running current and the possible fault current are large.
+
+## Distribution: the TC and who shares it
+- **A TC is a step-down distribution transformer:** it takes the **11 kV** line down to the low-voltage supply consumers use — the 220–230 V L-N / 380–400 V L-L of AC fundamentals above.
+- **How many consumers one TC carries depends on how much power they draw.** On the residential side, one TC runs **4–5 housing societies**, depending on the number of houses; on the industrial side, heavy loads mean one TC is shared by only **2–3 factories**.
+- **Everything on one TC shares its voltage.** A heavy load starting up draws a large current through the shared transformer and line, and the voltage drops for every consumer on it — which is why households sharing a TC with a factory see their lights dim whenever the factory starts. Households and factories are generally no longer put on a common TC now that electrification is widespread.
 
 ## The fluid–electrical analogy
 A gas or fluid network can be reasoned about as an electrical circuit, and the mapping is exact enough to reason with:

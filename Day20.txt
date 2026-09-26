@@ -1,0 +1,108 @@
+24th September 2026
+
+- We continued the repairing of the Gear Box
+
+- We learnt that Gear Box is Outwards for Power Transfer, So Motor to final place. Mostly GearBoxes are outward only, since Motor does not have input as anything (electrical)
+
+- It was specially fixed at a place (from where we bought Cars LED Light), they added 
+aluminium casting (like molten aluminium on top of the broken screw hole). So welding is not possible 
+from our end. They Dissaseembled the Gear Box there to work better. Work was to be done only on the outer cast,
+so we had nothing to touch to gears,internals,or ball bearings
+
+- After Fixing The Gear Box, it was time to Reassemble it. We Discovered WE CAN NEVER MATCH COMPANY FITTING WHEN OPENING COMPLEX MACHINE PARTS.
+Especially German Brands. But we tried and shaft wasnt going in. So we had to turn(trim) it a little bit. So we went to our Go To Person for Turning
+
+- We went to Bhavesh Bhai who is our go to person for machinig work - turning, grinding (big). He reduced the shaft diameter little bit
+
+- Earlier Shaft was completely working, but re assembly showed us avoid reassembly
+
+- It was then cleaned. Kerosene is Best, but its very harsh ruthless cleaner,
+so second best is Diesel. We soak it in and then with brush, completely scrap the metal internal to remove dirt and
+other impurities. Basically Like Dry Cleaning.
+
+- The Worker used water which should not have been done. He used Water to remove dirt and all that
+but after that, water SHOULD BE COMPLETELY REMOVED FROM THE GEARBOX/MACHINE PART, beacuse diesel and water dont mix.
+Moreover any minute water residue might lead in rusting in long term in internal parts of Gears. So Avoid Water at all costs
+
+- After Disel Cleaning, all the prexisting Greese and Oil gets removed from the Gear Box. So now it 
+makes slight noise when ball bearing rotates/cause of removal of lubricant
+
+
+- We then Bought Generic GearBox Oil(Needed for Gears) and Greese(Needed for Ball Bearing). Greese was applied to ball bearings via hand through worker all around all
+the ball bearings.
+
+- We then explored the motor more. The 3 phase squirel caged induction motor is also made by SEW EuroDrive. 
+The motor has 3 power inlet from top (for rotation), and it also has 3 power inlet seperately for brakes. Yes this motors also have Rubber Brakes than stop the rotating shaft
+
+- THis motor bodies also are Aluminium Casted (similar to Gear Box) because of light weight, heat dissipation and fast heat dissipation
+
+- The motor has a fan (driven from the main shaft), as well as wings(fins) to increase the surface area of contact to cool motor body
+
+- Now after the assembly gear Box is poured Gear Oil (at last) from the GearBox Hole for oil inlet
+
+- We now explored Cranes in Vavdi. Bright Corporation has Smaller Crane (2 T), Alloy has 7.5 T
+
+- Both Cranes in Vavdi have 4 motors. One Main Biggest Motor (literally visible Big Gear Box, this is the one that lifts 7.5 T or 2 T) for Up Down motion which powers the drum to wind and unwind the crane rope,
+One motor for Left Right (East/West) motion(Horizontally via the crane body) which powers the Wheels of the entire setup at top. And 2 motors for traversing the whole crane North/South which powers the wheels (2 on each side, one motor powers one wheel) 
+along the channel of Furnace shed. We were repairing gear box of one of these motors
+
+- Alloy Crane Main Power is at Main Panel (Along with Furnace Control)
+
+- Even if the Crane is stopped we can still tow it via hitting the other wheel on the channel with a rod, to displace it slightly to tow it to specific
+location were the workers can work easily
+
+- We explored the Furnace more. I learned A simple Rule that, whenever we have an Oil Seal or any Rubber Seal in General
+that sits Inside The furnace exposed to High Temperature, it needs water cooling.
+So our Vacuum Lid Closes on top of Vaccum Both ends have Rubber so 2 water jacket is needed there.
+Then the Fan on top also has Oil Seal made of Rubber exposed inside the Furnace so a water jacket there as well.
+
+- Each water Jacket has an inlet going in and outward coming out of furnace
+
+- We returned to Bhaktinagar
+
+- We faced an Electric issue there
+
+- The space where Office is Located and that entire shed is Micro Processor whose Power comes from a TC located outside. 
+that powers only Micro Processors (The 2 Furnaces 11/12 vaccum pump and the office). The Furnace 8 and the crane there
+is Micro Heat Treaters and Engineers which have power coming from different TC situated at the back (place where loading unloading comes for MicroHeatTreaters)
+SO the Bhaktinagar is also divided just like Vavdi within Alloy and Bright
+
+- So Bhaktinagar Site runs on 2 different TCs. While Entire Vavdi runs on 1
+
+- TC are step down transformers so 11KV line steps down to 220V. In commercial aspect 4-5 societies (depending on numnber of houses) run on one TC,
+while for Industries (depending on heavy power) TC is shared by 2-3 Factories.
+
+- Bhaktinagar Micro Processor TC Supplies Micro as well as a closed godown. Micro Heat Treaters TC supplies to Micro Heat Treaters
+as well as our Corresponding Neighbour (Wholesalers as well)
+
+- The main Lines->TC->PGVCL Meter (Upto there its there property), whatever comes outwards of the meter
+will be ours so then we are responsible for any fault. The Electric Meter are Goverment (GEB) sealed, so avoid tempering them at all costs.
+After PGVCL Meter its our premise hence our Fuse is there
+
+- Historically Few Houses of Udyognagar (small Local Village Backside of Bhaktinagar Factory), Ran on TC's common to our Factories . So 
+whenever our Factory started it used to draw power which used to dim lights of their household. 
+We Requested GEB(Gujarat Electric Board) to make seperate TC for us. Then they made at that time.
+Moreover now times have changed and electrification is widespread so generally households are not given common 
+input with Factories
+
+- Only Micro Processor's TC hade GEB Box. This is a small box, acting as a intermediate Fuse between TC to our Factories meter.
+So we can shut that instead shutting Transformer Down. But Only MicroProcessor Has that, all other sites directly move from TC to Factories meter
+
+- The fault was - from outside the GEB Meters Inside MicroProcessors, the l-l voltage between 2 of them was overshooting. It should be 380-410 V, this reading (via our own multimeter) showed 720V 
+
+- The source was from GEB Box. Starting from output of GEB Box we were recieving higher L-L voltage. So the issue was there. We filed Complaint in GEB
+
+- These guys came, and checked. The Wire was shorting from that GEB Box. So They stopped the TC, than manually fixed the wiring in GEB box. Then were going to install
+200 A of Fuses. Which is not tolerable for us, it will pop for our factories any time. So we asked we need bigger fuses (Fuses are Ampere Rated so we asked to install HRC High Rupture Circuit Breakers, high rated fuses) which the GEB workers said we dont have them and told 
+us to go convey to GEB Head Sir
+
+- (Remember Fuse vs MCB, Fuse is one shot, MCB is like switch that trips. Fuse is cheaper and fast as compared to MCB, but when it trips a lot, MCB wins on cost as we dont buy too many replacements)
+
+- We then went to PGVCL Udyognagar Office (Walking Distance from our Factory, just one street next), and then
+directly went to meet the sir and discussed our concerns, that factories require higher fuses so please allow us.
+The sir agreed that we will make that for you, currently  Temporarily we will work with 200A in next few days we will arrange that, which
+after next day they did as well.
+
+- GEB being a Government Body are notorious for slow work. We File Complaint and they come after 4-5 hours minimum, so 
+when dealing with them, expect delays 
+

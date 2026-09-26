@@ -8,6 +8,19 @@ Machine elements and the general mechanical reasoning behind them — power tran
 - **Reading a gear train inside the box:** the incoming shaft from the motor turns a smaller gear, which in turn drives the final output gear. Each mesh from a larger gear to a smaller one, or the reverse, trades speed against torque — which is the point of the box beyond protecting the gears.
 - **The oil is a serviceable item, not a sealed filling:** most gear boxes have an **oil input hole** to fill through and a **drain plug hole** at the bottom to let it out. That makes it maintainable — drained, inspected, replaced.
 - **What draining it tells you.** Oil coming out with metal particles in it is the gear box reporting its own wear before it fails. It is the only condition signal a sealed box gives, and it costs nothing to read whenever the oil is changed.
+- **Power runs outward through a gear box: motor → gear box → final load.** The motor is always the driving side, since its own input is electrical and nothing mechanical feeds it — the gear box takes the motor's shaft in and hands the power on to the drum, wheel or whatever the load is.
+- **That is a matter of the drive, not a lock inside the box.** An ordinary gear train turns just as happily when pushed from the load end, so a hanging load will drive the train — and the motor — backwards the moment the motor stops holding it. That is why a lifting motor carries a brake of its own (see [[Electrical-Engineering]], Motors).
+
+### Cleaning and relubricating a gear box
+- **Kerosene is the best cleaner, but it is a harsh, ruthless one; diesel is the second best and the one used.** The parts are soaked in it, then brushed and scraped all over the metal internals to take off the dirt and impurities — dry cleaning, in effect.
+- **No water, at all.** Diesel and water do not mix, so water cannot be washed out by the diesel that follows it; and any residue left inside rusts the gears and internals over the long term. If water has been used, it has to be removed from the part completely before anything else. Water is the same enemy in any oil-filled machine (see Oil-flooded machines and their oil below).
+- **Solvent cleaning strips all of the old grease and oil along with the dirt.** A cleaned gear box makes a slight noise as its ball bearings turn, because the lubricant is gone — it has to be relubricated before it goes back to work, not after.
+- **Two lubricants, two jobs:** **gear oil** for the gears, **grease** for the ball bearings. The grease is worked in by hand all around every bearing during reassembly; the gear oil goes in **last**, after the box is closed up, through its oil inlet hole.
+- **How much gear oil is adequate:** enough that every contact between the gear teeth is covered.
+
+## Opening a machine: factory fits cannot be matched
+- **Once a complex machine part is opened, the company fitting can never be matched again on reassembly** — true especially of German-made units. A factory fit is made with the maker's tooling and procedure, and pulling the parts apart disturbs the mating surfaces it was made on.
+- **So a working part is not opened without a reason.** If only the outside of an assembly needs work, the insides are left sealed; every disassembly spends some of the fit it came with.
 
 ## Bearings
 - **Anything that rotates against a fixed part runs on ball bearings.** It is close to a general rule of mechanical engineering, and it holds everywhere inside a gear box. The bearing is what carries the shaft's load while letting it turn, replacing sliding contact with rolling contact — far less friction, far less wear, and the bearing is a cheap replaceable part standing in for an expensive shaft and housing that are not.
@@ -22,6 +35,10 @@ Machine elements and the general mechanical reasoning behind them — power tran
 - **So bad oil does not announce itself.** A machine with degraded or contaminated oil does not fail loudly — it just quietly stops performing, because the seal the oil was providing has gone.
 - **Water in the oil is the specific killer in vacuum service.** Water has a far higher vapour pressure than the oil does, so once water is in the charge the machine is boiling water off inside itself and can no longer reach a low pressure — the vacuum degrades with nothing mechanically wrong. Water also **emulsifies** the oil, destroying its sealing and lubricating ability, and **corrodes** the internals.
 - **Contaminated and degraded are not the same thing, and only one is recoverable.** Filtering removes **contamination** — water and particles come out. It does nothing for **degradation**: heat cycling and oxidation break the oil down chemically, and no filter reverses that. Topping up with fresh oil **dilutes** the old charge rather than replacing it.
+
+## Rubber seals near heat need water cooling
+- **Any oil seal, or rubber seal in general, that sits exposed to high temperature needs water cooling.** Rubber loses its elasticity, hardens and cracks at temperatures far below what a furnace interior runs at — a seal that has hardened no longer seals.
+- **The water jacket is how:** a jacket of flowing water around the seal's seat carries the heat away continuously, holding the rubber at a temperature it survives while the metal around it is hot. Each jacket has its own inlet going in and outlet coming out, so the water is always being replaced rather than heating up in place.
 
 ## Non-return valves (spring check NRV)
 - **A purely mechanical one-way valve — no electrics, no control signal.** An internal spring holds a sealing sheet/disc against a seat. Forward pressure pushes the sheet off its seat and flows through; the moment forward pressure drops, the spring snaps the sheet back onto the seat and blocks reverse flow.

@@ -17,7 +17,7 @@ The customer roster, the SuperEngiTech opportunity and the Pioneer dispute are i
 ## Our own companies / plots
 The factory operates under multiple registered company names across its two sites :
 - **Vavdi**: "Alloy Heat Treatment" (active — see [[Furnace-Engineering]] for its furnaces) and "Bright Corporation" (a separate plot set up to manufacture Bright Bars — cold-drawn/polished steel bars, a different product line from heat-treatment job work. The product didn't sell, so that plot now sits unused). What to do with the two idle spaces is under Ideas below.
-- **Bhaktinagar**: "Micro Heat Treaters and Engineers" and "Micro Processors."
+- **Bhaktinagar**: "Micro Heat Treaters and Engineers" and "Micro Processors." The shed with the office — furnaces 11 and 12, their vacuum pump and the office itself — is **Micro Processors**; **furnace 8** and the crane there are **Micro Heat Treaters and Engineers**. Each company has its own TC (see [[Site]], Incoming electrical supply).
 - **Vavdi is the newer of the two sites** — Alloy Heat Treatment and Bright Corporation are the later plots, Bhaktinagar the older one.
 ### Ideas (not yet in practice)
 - **Renting out the workers' cooking area at Bhaktinagar** — the space at the opposite end of the plot, where the disbanded/decommissioned furnace sits (see [[Furnace-Engineering]], Inventory). Under discussion between father, uncle and **Shailesh Bhai** (the auditor — see Leadership above), which is the right instinct: it's a tax and compliance question as much as a property one.
@@ -71,6 +71,8 @@ Pricing strategy, cost structure, and per-kg rates are in [[Pricing]].
 - **Buying local trades brand for reach, and on a crane that is the right way round** — the failure mode that hurts here is downtime, not component quality, and the components are bought-in name-brand regardless.
 - **Repair before replace.** A complete new assembly costs far more than getting the damaged part worked on, so the fault is priced as a repair first and replacement only becomes the answer when repair is ruled out.
 - **The repair channel below the OEM: local welding, machining and fabrication shops.** For a part the factory cannot work on itself — the crane's aluminium-casting gear box casing, for instance — the part is taken to local shops that can actually look at it and say what can be done. Rajkot's density of such shops is what makes repair-before-replace a realistic default rather than a delay.
+  - **Aluminium casting repair:** the crane gear box's broken screw hole was built back up with molten aluminium at the shop opposite the one the factory had bought a car LED light from. Welding the casting was not possible from our end (see [[Site]], Crane).
+  - **Bhavesh Bhai — the go-to person for machining work:** turning, and grinding on big parts. He turned down the crane gear box shaft when it would not go back in on reassembly.
 - A third channel, distinct from both: **visiting a peer factory, seeing a system running, and taking the vendor's name off it.** The Drawell visit below produced exactly that — their control software came from **Basell Automation System Private Limited (Tamil Nadu)** — a lead Justdial and IndiaMart could never have returned, because the search term for it wasn't known until the thing was seen working.
 
 ### The Drawell visit (decarb advice)
@@ -85,6 +87,15 @@ Pricing strategy, cost structure, and per-kg rates are in [[Pricing]].
 ## Scrap dealers ("Bhangaar" vale)
 - Scrap dealers — called **"Bhangaar" vale** — come to collect the scrap the factory generates. They share their numbers, but the factory rarely contacts them: scrap isn't disposed of regularly, and the dealers come around on their own.
 - The factory generates mostly metal scrap, so iron-scrap dealers come often; electric scrap is also collected (a dealer came for it specifically).
+
+## Electricity utility — PGVCL (GEB)
+- The electricity supplier is **PGVCL**, still called **GEB** (Gujarat Electricity Board) on the ground. Faults on its side of the supply are reported by filing a **complaint**. The site side of the supply is in [[Site]], Incoming electrical supply.
+- **A complaint only covers the utility's side** — everything up to and including the PGVCL meter; a fault outward of the meter is ours to deal with (the boundary: [[Site]], Incoming electrical supply).
+- **The electric meters are Government-sealed.** Never tamper with them.
+- **Expect delays.** Being a Government body, GEB is notorious for slow work: after a complaint the crew arrives **4–5 hours later at the minimum**.
+- **The field crew carries only what it carries, and can't decide past it.** On 24-09-2026 the crew was going to fit 200 A fuses in the GEB box at Micro Processors, too low for our factories; asked for higher-rated fuses, they said they had none and told us to take it to the head of the office.
+- **Going to the office directly works.** The **PGVCL Udyognagar office** is walking distance from the Bhaktinagar factory, one street over. We went in the same day, met the head and put it plainly — factories need higher fuses. He agreed to run it on 200 A temporarily and arrange the higher fuses within a few days — and they were fitted, as promised (see [[Day20]]).
+- **Asking works on the TC side too:** when the factory's startup was dimming the lights of the Udyognagar houses on a shared TC, GEB was requested to make a separate TC for us, and did (see [[Site]], Incoming electrical supply).
 
 ## Gas suppliers
 - LPG dealer: workers also draw on the same common LPG supply for their own personal cooking, which is a factor in negotiation. Usage is read off the **LPG flow meters** at both sites in litres/minute (see [[Furnace-Engineering]], Gas consumption measurement), giving a factory-wide LPG ingestion rate to negotiate against.

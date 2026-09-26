@@ -30,7 +30,7 @@ The 4 workers are not stationed to a single site — they move between Bhaktinag
 - Why the distinction matters when seeking technical help outside: the Chief Operator is the person who knows what the machine does. See the Drawell visit in [[Business]], External expertise & tools sourcing.
 
 ## Payroll
-- All in-factory payments — worker payroll, Upaad advances, and paying the LPG vendor — are handled by **father**. Uncle's side of the money is GST and client credit/outstanding via Miracle Software (see [[Business]], [[Pricing]]).
+- Payroll and Upaad are handled by **father** (who handles which money: [[Business]], Leadership).
 - Workers argue slightly for more; the response given is to tell them to work correctly. They sign on things.
 - Why disputes happen: usually the record is ambiguous — attendance/overtime isn't captured in a form both sides trust. The durable fix is a cleaner record (daily register both sides sign, or a punch system), not arguing harder.
 - The payroll notebook is kept behind uncle's seat.

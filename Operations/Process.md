@@ -34,12 +34,11 @@ Customer part arrives → inward entry (challan ref, weight/qty, LOT assigned)
 
 ## Back-to-back batching
 - Where possible the next batch is started **as soon as the previous one finishes**, so the furnace is still hot and less energy is needed to bring it back up to temperature — a direct saving on the electricity bill.
-- This is why the changeover is pre-loaded and run fast (see [[Furnace-Engineering]], Unloading and loading): the coil for the next batch is made ready before the lid is opened, so no heat is lost to a furnace standing open and waiting.
-- The pre-process routine before the cycle is **the same for essentially every coil** regardless of material; only the heat-treatment cycle itself varies, and those cycles are already pre-determined for most of the common materials treated here (see Repeat-job reference system below). Individual parts and samples can deviate from the coil routine.
+- This is why the changeover is pre-loaded and run fast: the next coil is made ready before the lid is opened, so no heat is lost to a furnace standing open and waiting. The routine is the same for essentially every coil (see [[Furnace-Engineering]], Unloading and loading). The cycles that follow it are pre-determined for most common materials (see Repeat-job reference system below).
 
 ## Material identification
 - Incoming material identified by **diameter (e.g. 20 mm) + material grade**. This is the basic spec key used to match a part to its correct process.
-- A **heat number** (see [[Metallurgy]]) travels with material as a batch ID tied to the parent mill coil/rolling. Used like a lot number, but assigned upstream by the steelmaker, not by this factory. The low-carbon spectral finding in [[Day2]] is exactly the kind of dispute a heat number should be able to settle.
+- Material carries the mill's **heat number** — the steelmaker's batch ID for the parent melt, used like a lot number but assigned upstream, not by this factory (more in [[Metallurgy]], Heat number). The low-carbon spectral finding in [[Day2]] is exactly the kind of dispute a heat number should be able to settle.
 - Everything is logged in an Excel sheet (see Paper/GST flow below).
 - ⚠️ **Safety concern (material handling):** hot and cold steel look visually identical below ~500°C — a part at 400°C looks room-temperature and will take skin off. Never handle parts moving through the furnace charge/output stage without checking temperature first (spit-drop, IR thermometer, or ask).
 

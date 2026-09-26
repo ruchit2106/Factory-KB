@@ -27,26 +27,27 @@ Both routes almost always still need **machining** (for finish/precision) and **
 - Consequence: a forged part is normally the one carrying real service stress, so it's the one where a soft decarbed skin actually matters (see [[Metallurgy]], Decarburization). A cast hydraulic body wants dimensional precision, not fatigue strength.
 
 ### Casting sub-methods
-- **Sand casting** — the route seen at SuperEngiTech. Cheapest, largest sizes, roughest surface.
+- **Sand casting** — cheapest, largest sizes, roughest surface.
 - **Investment casting** (lost wax) — a wax pattern is coated in ceramic, the wax melted out, metal poured into the resulting shell. Much better surface finish and dimensional accuracy, higher cost, smaller parts.
 - **Die casting** — molten metal forced under pressure into a reusable **steel** die. Fast, repeatable, excellent finish, but the die is expensive and it's mostly limited to lower-melting metals (aluminium, zinc, magnesium) because a steel die does not survive repeated contact with molten iron.
 - Note the terminology collision: in sand casting the cavity is formed by a **pattern** pressed into sand; "die" properly means the reusable metal tool of die casting/forging. On the shop floor both get called the die.
 
 ### Owning a casting — why it is the fragile member
-- **A casting is the fragile member of any assembly it sits in, and an aluminium one doubly so.** Aluminium is soft, and a casting has no worked grain structure to fall back on — the grains solidified in random orientation with boundaries running across the load paths (see Why forging is stronger above). So threads strip easily, and welding or filling a hole in one is specialist work, not something a general fabrication shop should be handed casually.
+- **A casting is the fragile member of any assembly it sits in, and an aluminium one doubly so.** Aluminium is soft, and a casting has no worked grain structure to fall back on — the grains solidified in random orientation with boundaries running across the load paths (see Why forging is stronger above). So threads strip easily, and welding or filling a hole in one is specialist work.
 - Consequence in practice: a cast housing gets handled with care, and any repair to it goes to a shop that can actually machine or weld that material — not a general fabrication shop.
+- **A broken hole in an aluminium casting can be built back up by casting instead of welding** — molten aluminium added over the damaged spot, making the repair in the same material by the same process the part was made by.
 
-## Sand casting, as seen at SuperEngiTech
+## Sand casting — the process
 1. **Mould making.** A sample metal piece (the pattern) is pressed into sand to leave its negative image — this is the cavity the metal will fill. Both soft (green sand) and hard (chemically bonded) moulds are made.
-2. **Melting.** The charge is a mix of **pig iron** bought from large integrated mills (JSW and similar, who reduce iron ore with coke) plus **the plant's own returned scrap**, with the remaining alloying elements added on top to hit the target composition. Melt runs around **1200°C**.
+2. **Melting.** The charge is a mix of **pig iron** (what it is and who makes it: [[Metallurgy]], Pig iron) plus **the foundry's own returned scrap**, with the remaining alloying elements added on top to hit the target composition. Melt runs around **1200°C**.
 3. **Pouring** into the mould cavity.
 4. **Shakeout.** Cooled, the sand mould is broken away — and the sand is recovered and reused.
 
-Layout logic at that plant: mould making happens at one end of the shed, the mould then travels, and pouring is done at the front end near the QA department. Sensible flow — pouring is the hot, hazardous, quality-critical step, so it sits closest to inspection and to the exit rather than buried behind the mould line.
+Layout logic: mould making at one end of the shed, the mould then travels, and pouring is done at the front end near the QA department. Pouring is the hot, hazardous, quality-critical step, so it sits closest to inspection and to the exit rather than buried behind the mould line.
 
 ### Why the melt is only ~1200°C — the single most useful number here
-- **Pure iron melts at 1538°C; cast iron around 1150–1200°C**, because dissolved carbon lowers the melting point, down to the eutectic (~4.3% C, 1147°C). Cast iron is deliberately parked near that composition, which is exactly why it's castable at all: a foundry can hit it with ordinary furnaces, and it stays fluid long enough to fill thin sections. The physics is in [[Metallurgy]], Pig iron.
-- This is also why **pig iron is the charge material**: it arrives already near-eutectic and already low-melting, and a foundry making cast iron simply keeps it that way instead of refining the carbon out as steelmaking does.
+- **Cast iron is deliberately parked near the Fe–C eutectic, so it melts around 1150–1200°C rather than pure iron's 1538°C** (the physics: [[Metallurgy]], Pig iron). That is exactly why it's castable at all: a foundry can hit it with ordinary furnaces, and it stays fluid long enough to fill thin sections.
+- This is also why **pig iron is the charge material**: it arrives already near-eutectic and already low-melting, and a foundry making cast iron simply keeps it that way.
 - Corollary worth holding on to: **a steel foundry has a much harder job than an iron foundry.** Low-carbon steel melts closer to 1500°C and is far more sluggish/viscous when liquid, so it fills thin sections badly. Complex thin-walled castings are made in cast iron for a reason.
 - (The 2.1% steel/cast-iron line and why silicon shifts it: [[Metallurgy]], Cast iron.)
 
@@ -57,12 +58,12 @@ Layout logic at that plant: mould making happens at one end of the shed, the mou
 ## Machining — the finishing stage
 **A casting is never dimensionally perfect.** It shrinks unevenly as it solidifies, the sand mould itself moves, and the surface is rough. So every casting carries deliberate extra material (machining allowance) that gets cut away afterwards to reach final dimensions.
 
-Machines seen at SuperEngiTech Unit 2 — genuinely top-tier for Rajkot:
+The machining operations:
 - **Turning (lathe)** — **the workpiece rotates**, a stationary single-point tool is fed against it. Produces round/cylindrical shapes: shafts, bores, threads, tapers.
 - **Milling / VMC (Vertical Machining Center)** — the reverse: **the tool rotates**, the workpiece is held still on a table that moves under it. "Vertical" = the spindle points down. Produces flat faces, slots, pockets, complex 3D contours.
 - **Drilling** — creating a hole from solid with a rotating drill bit.
 - **Boring** — enlarging and truing an *existing* hole. The distinction that matters: a drill follows its own path and can wander, so a drilled hole is accurate in diameter but not necessarily in position or roundness; boring uses a single-point tool on a rigid spindle to take the hole to exact size, position, and straightness. Precision holes are drilled first, then bored.
-- **CNC (Computer Numeric Control)** — not a machine type but a *control* method: the tool path is driven from a program instead of a human turning handwheels. Applies to lathes and mills alike. The CNC machines there are from **Jyoti** (Jyoti CNC, Rajkot — a local manufacturer of national scale).
+- **CNC (Computer Numeric Control)** — not a machine type but a *control* method: the tool path is driven from a program instead of a human turning handwheels. Applies to lathes and mills alike.
 - **3D scanning camera** — builds a 3D digital model of the finished part in the computer, so actual geometry can be compared against the design model. This is dimensional QA, not machining.
 
 ### Drilling hard metal — stepping up and cooling
@@ -74,10 +75,10 @@ Machines seen at SuperEngiTech Unit 2 — genuinely top-tier for Rajkot:
 - **Stainless is a different job from aluminium** — far harder, and the stepping and cooling above are what make it practical rather than optional.
 
 ### When a tool physically cannot reach
-Some internal fluid veins in these hydraulic cores are as fine as **500 microns** (0.5 mm) — no cutting tool fits inside. Those passages are never machined at all. They are cleared with a **water jet spray** to blast out residual sand and impurities, and the plant simply relies on the casting itself having formed the passage accurately. This is the real reason casting precision is their obsession rather than strength: for those features, the as-cast surface *is* the final surface, with no second chance to correct it.
+Internal fluid veins in a hydraulic core (below) can be as fine as **500 microns** (0.5 mm) — no cutting tool fits inside. Those passages are never machined at all. They are cleared with a **water jet spray** to blast out residual sand and impurities, relying on the casting itself having formed the passage accurately. This is why casting precision matters more than strength on such a part: for those features, the as-cast surface *is* the final surface, with no second chance to correct it.
 
-## The application: hydraulic control cores for earth movers
-- SuperEngiTech's German contract part is the **main hydraulic core** of earth-moving machinery (JCB-type). Every arm, bucket, and boom on such a machine moves by hydraulic fluid, not by motors or cables.
+## Hydraulic control cores for earth movers
+- The **main hydraulic core** is the heart of earth-moving machinery (JCB-type). Every arm, bucket, and boom on such a machine moves by hydraulic fluid, not by motors or cables.
 - How it works: the operator's stick/lever doesn't move the arm — it re-routes fluid. The core is the central manifold that all hydraulic fluid passes through on its way to the cylinders, containing the complex internal routing that decides which cylinder gets pressurised. Pushing the stick switches the routing; the fluid does the work.
 - Why hydraulics at all: a liquid is essentially incompressible, so pressure applied at one end transmits almost undiminished to the other, and a small piston acting on a large one multiplies force. That's how an operator's fingertip pressure becomes tonnes of digging force.
-- Why this part is cast and not forged: it is a dense block riddled with internal passages that cannot be produced any other way — no press can form a closed internal network. It also lives under high internal pressure but not under cyclic bending/fatigue load, so casting's lower strength is acceptable while its shape freedom is indispensable.
+- Why the core is cast and not forged: it is a dense block riddled with internal passages that cannot be produced any other way — no press can form a closed internal network. It also lives under high internal pressure but not under cyclic bending/fatigue load, so casting's lower strength is acceptable while its shape freedom is indispensable.
