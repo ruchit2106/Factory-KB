@@ -32,6 +32,11 @@ Both routes almost always still need **machining** (for finish/precision) and **
 - **Die casting** — molten metal forced under pressure into a reusable **steel** die. Fast, repeatable, excellent finish, but the die is expensive and it's mostly limited to lower-melting metals (aluminium, zinc, magnesium) because a steel die does not survive repeated contact with molten iron.
 - Note the terminology collision: in sand casting the cavity is formed by a **pattern** pressed into sand; "die" properly means the reusable metal tool of die casting/forging. On the shop floor both get called the die.
 
+### Moulding vs casting
+- **Moulding is a sub-step of casting, not a separate process.** Moulding makes the **mould**, the hollow cavity shaped like the part. Casting is the whole process: make the mould, pour molten metal into it, let it solidify, then take the part out.
+- **The mould is the negative, the casting is the positive.** The mould is what the metal fills; the casting is what comes out.
+- **Whether the mould survives depends on the method.** A sand mould is broken away after every pour (shakeout), so a new one is moulded for each casting. A die-casting die is a permanent steel mould, made once and reused.
+
 ### Owning a casting — why it is the fragile member
 - **A casting is the fragile member of any assembly it sits in, and an aluminium one doubly so.** Aluminium is soft, and a casting has no worked grain structure to fall back on — the grains solidified in random orientation with boundaries running across the load paths (see Why forging is stronger above). So threads strip easily, and welding or filling a hole in one is specialist work.
 - Consequence in practice: a cast housing gets handled with care, and any repair to it goes to a shop that can actually machine or weld that material — not a general fabrication shop.
