@@ -24,7 +24,7 @@
 - Hardness scale rig kept outside the factory; ball vs diamond-tip indenters — see [[Metallurgy]].
 - Heat number / batch traceability tied to parent rolling; material identified by diameter + material grade — see [[Process]] and [[Metallurgy]].
 - EN31 = 52100 (British vs US standard); composition given as a range not an exact percentage — see [[Metallurgy]].
-- Brackets = 250A fuse sets per phase, Siemens, 2 in series at Bhaktinagar for redundancy; new bracket from a different, lesser brand — see [[Furnace-Engineering]].
+- Brackets = 250A fuse sets per phase, Siemens, 2 in series at Bhaktinagar for redundancy; new bracket from a different, lesser brand — see [[Site]], Incoming electrical supply.
 - Panel sourced from a Mumbai (Goregaon) supplier — see [[Furnace-Engineering]].
 - 2 thermostats per furnace (one per zone, master in the lower zone) reading 4 thermocouples — see [[Furnace-Engineering]]. (The raw Day2 dump said "4 controllers"; that was a typing error, corrected on [[Day7]].)
 - Master Excel used as first reference for repeat jobs (~80% same as before); workers also carry a handybook — see [[Process]].

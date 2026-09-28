@@ -66,11 +66,6 @@ Our furnaces switch heating power with **contactors**; a thyristor upgrade is th
 ## Ideas (not yet in practice)
 - **Bell pot.** Install a retort/muffle that isolates the workload from the open furnace atmosphere — the top-loading design described under Furnace body design above, which other players in the market run and which was seen running six times over at Drawell Wires. It would cut down the side reactions that make decarb control so hard (see Decarb — atmosphere control & troubleshooting below) by narrowing the atmosphere to the intended reaction, and it would also keep coil oil off the heating elements (see Element burnout above). The tradeoff: the pot's own thermal mass has to be heated, raising the annealing cost — which erodes the factory's core cost advantage of running single-pot against the industry-standard two-pot/bell-pot setup (see [[Process]], the single-pot cost edge). A precision-vs-cost call, and the factory has so far chosen cost.
 
-## Electrical protection: brackets (fuses)
-- "Brackets" = sets of 3 large fuses (250A) — one set per phase — installed directly at the factory's power input, to the **left of the panel area** (see Panel).
-- Bhaktinagar has **2 fuse-sets wired in series per phase** for redundancy (Siemens brand) — why series redundancy works is in [[Electrical-Engineering]], Protection: fuses in series.
-- A recently added replacement bracket is from a different (lower-quality) manufacturer than Siemens. Worth tracking, since on a fuse, quality is a safety property and not just a reliability one (same reference).
-
 ## Panel
 - The furnace control panel — described as "the heart of the furnace" — was sourced from a supplier in Mumbai (Goregaon area). Houses the controllers/contactor drive logic.
 - Panels are divided **one panel per furnace**: each panel carries everything for its one furnace — contactors, power supply, thermostats, and the display readouts for all 4 of that furnace's thermocouples.

@@ -1,0 +1,17 @@
+26th September 
+
+- We learnt about the Delivery Chalan(Proof that we got the material), and based on challan we sent them bill.
+
+- For Big old trustworthy we accumulate Challan and in end give collective bill, rather for others we give Challan to Bill
+
+- For Weird Less Recurring Treatment Plants(like EN8D) we simply see Cycles from MEtal Heat Treatment Book as our Reference Book
+
+- We also learnt that earlier (way to earlier) we used to get individual wierd Heat Treatment Jobs for Specialised works 
+like for Titanium Parts and all. These came from contractors working with ISRO, contractors working with DRDO who have These
+Specialised components. They give us exact precise Heat Treatment Cycles we just copy to copy implement it. Since these 
+come very rare and need precise work, we prioritise as well as charge them heftily
+
+- We learnt how Big European Manufacturers work especially German ones, they give manufacturing process to Here, India (Cheap Labour and relatively loosend Governemnt Restrictions for hazardous working),
+we export them, they do slight finishing (if at all they do), QA, add their logo, and ship it. There most work lies with QA and logos. The same thing we learnt in Super EngiTech Visit.
+
+- We saw that for every site, power supply after PGVCL Meter to our machines first goes through our main Fuse. So we have our Fuse in line there always

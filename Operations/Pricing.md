@@ -14,6 +14,7 @@
 - Standard rate for established job-work customers is around **₹6/kg**.
 - **Pioneer pays ₹5.5/kg** — deliberately below the standard rate, because Pioneer supplies steady work and the relationship goes back a long way (client profile in [[Customers]]).
 - Against the ₹4.0–4.5/kg cost in Costing above, Pioneer work margins **₹1.0–1.5/kg** — a typical 2-coil lot (2 × 2.5 ton = 5,000 kg) clears roughly **₹5,000–7,500**.
+- **Specialised treatment is charged higher.** Rare work needing precise execution is prioritised and priced well above the standard rate — as the ISRO/DRDO contractors' titanium-part jobs were (see [[Customers]], Former clients).
 - Small individual samples (low total weight) are priced much higher per kg — as high as **₹40/kg** — because the furnace's running cost is largely fixed per cycle regardless of load size; a small sample has to carry that same fixed cost across far less material, so the per-kg price rises sharply.
 
 ## Credit / Outstanding

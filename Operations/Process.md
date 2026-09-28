@@ -48,10 +48,13 @@ Customer part arrives → inward entry (challan ref, weight/qty, LOT assigned)
 ## Repeat-job reference system
 - When unsure what process a given customer's material needs, the practice is: check the master Excel of past jobs first — the same customer generally sends the same kind of part, so ~80% of the time the past record is the answer rather than re-deriving the process from scratch.
 - Workers themselves carry a separate handybook for cycle parameters — see [[Workers]]. The master Excel is still trusted over the handybook when the two would differ.
+- **Rare, weird treatments with no past record** (e.g. EN8D) take their cycle from the **Metal Heat Treatment Book** — the only reference book followed here.
 - Many customers supply their own cycle parameters directly (shared over WhatsApp) rather than the factory deriving them — the factory runs the customer's cycle as given, tweaking it only if needed.
 
 ## Paper / GST flow
-- Delivery challan: job-work material moves without sale, so it travels on challans. Goods must return to the sender within the statutory window (inputs: 1 year) or GST treats the movement as a sale — a lot sitting too long becomes a tax event.
+- Delivery challan: job-work material moves without sale, so it travels on challans. The challan is the **proof that we received the material**, and the bill is raised against it.
+- Challan goods must return to the sender within the statutory window (inputs: 1 year) or GST treats the movement as a sale — a lot sitting too long becomes a tax event.
+- **Billing cadence depends on the customer.** For big, old, trustworthy customers, challans are accumulated and one **collective bill** goes out at the end; for everyone else it is **challan to bill**, one bill per challan.
 - E-way bill: electronic transport document required above value thresholds. Rasik (office boy) generates them; if he's absent, someone else in the office steps in.
 
 ## Master Excel sheet
