@@ -59,6 +59,16 @@ Customer part arrives → inward entry (challan ref, weight/qty, LOT assigned)
 
 ## Master Excel sheet
 - The complete inward/outward tracking system: which furnace is running which lot, its challan, the customer's company details — all tracked as one inward/outward record. Mostly maintained by uncle/Rasik.
+- The workbook is the Excel file `MICRO PROCESS 26-27 Cloud.xlsm`, kept right here in the `Operations/` folder next to this note. One workbook per financial year; each business step below has its own tab, and a lot carries the same ID through all of them.
+- **How the workbook follows a lot through the business:**
+  - **Inward** — every challan received is one row: customer, challan no. and date, who it came from, size, material, mill heat number, weight. Each row gets a unique ID, and that ID is the thread to every later tab. A customer's lot arriving in several pieces gets split into A/B rows under the same challan.
+  - **Loading** — each furnace load is one row: load no., furnace, which lots and how much weight went in, start, running and ready times. Up to three lots share one load (see Back-to-back batching).
+  - **Reports** — sample date, load, furnace, decarb and pearlite results, gas and nitrogen used per sample, report-sent date.
+  - **Delivery** — the outward record: our delivery challan, e-way bill, heat number, material value and jobwork value, decarb result, rate.
+  - **Stock report** — a filtered view over the above by customer and status: raw (inward, not yet run), ready (run, not yet delivered), delivered. This is how the office answers "what of this customer's is still with us".
+  - **Transport** — one row per trip out: transporter, vehicle, delivered-to, our weighment against the weight slip, fare.
+  - **Masters** — customer master (code, contact person, GST no., rate, transporter), furnace master, pot master. Customer codes typed into the other tabs pull the customer's details from here.
+  - **Side logs** — LPG cylinder dates and weights, nitrogen trial notes per lot, the thermocouple/channel map of the vacuum furnaces, and a separate drawing-job tab for one customer.
 - Why Excel and not a dedicated online system: this area gets frequent power cuts, so a cloud/online tool would leave the factory unable to work during an outage. Excel is written locally regardless of power/internet status, then syncs once power/internet returns — the record-keeping never blocks on connectivity.
 - A software project ("FactoryManagementSystem") was started to replace this with proper automation, got roughly half-built, then stalled on exactly this problem: it needed constant internet/sync and couldn't handle the power-cut gaps gracefully, so Excel remained the working system.
 - All physical bills are kept in a file behind where father sits (payroll/Upaad notebooks are the equivalent behind uncle's seat — see [[Workers]]).
